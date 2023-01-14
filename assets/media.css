@@ -1,0 +1,463 @@
+@media screen and (max-width:990px){
+    html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.nav-item .drop{
+    display: none;
+}
+    .search-bar{
+        display: none !important;
+    }
+    
+
+    .header .header-content .header-items p{
+        font-size: 40px;
+    }
+    .navbar{
+        position: fixed;
+        background-color: white;
+        z-index: 999;
+    }
+    
+    .container .together a{
+        position: absolute;
+    }
+    .container .row {
+        gap: 0;
+    }
+    .container .row3 {
+        gap: 0;
+    }
+    .container .together .box{
+        width: 500px;
+        height: 150px;
+        bottom: -50px;
+        left: 0px;
+        border: 1 solid black;
+        background-color: white;
+        z-index: 2;
+    
+    }
+    .container .together h3::after{
+        content: '';
+        position: absolute;
+        bottom: 47%;
+        height: 1px;
+        width: 80px;
+        background-color: orange;
+      
+      
+      }
+    h2{
+        font-size: 40px;
+       }
+       .ourProjects .projectcontent{
+        font-size: 40px;
+       }
+
+
+
+       /* safety section */
+
+
+
+    .Safety .text-content .anchor a{
+        font-size: 12px;
+        font-weight: 700;
+
+    }
+
+    .Safety .text-content .anchor a{
+        
+        padding-right:30px;
+    
+    }
+
+    .Safety .text-content .anchor a:hover:after{
+        width: calc(100% - 40px);
+    }
+
+
+
+    /* possible sec. */
+
+
+    .possible .cropped img{
+        margin: -10px 0px -40px 0px;
+    }
+
+
+    .possible .cropped p{
+        width: 450px; 
+        top: 30%;
+        left: 5%;
+        font-size:60px;
+        color:#fff;
+    }
+
+
+    /* leadership sec */
+
+    .leadership .leadership-components .post-text{
+        padding-top:0px;
+        width:100%;
+        font-size:15px;
+    }
+
+
+    /* news sec. */
+
+    
+    .News .news-block{
+        padding:100px 0px;
+    }
+
+
+    .News .news-block .insights .new-image{
+        width:100%;
+    }
+
+
+    
+    .News .news-block .insights .new-image h4 a{
+  
+        font-size:20px
+    
+    }
+
+
+    .News .news-block .insights:hover{
+        border-bottom:  0px;
+    }
+
+
+    /* clients sec. */
+
+    .clients .client-image{
+        margin:50px 0px;
+    }
+
+    .clients .client-image h3{
+        
+        padding:0px 1px;
+        border-right:1px #adadad solid;
+        width:20%;
+        font-size:23px
+    }
+    .clients .client-image img{
+        width:13%;
+
+    }
+
+
+    .ready .ready-components {
+        margin-top: -20px;
+    }
+
+
+    .ready .ready-components p{
+        width: 350px; 
+        height: 50%; 
+        top: 20%;
+        left: 7%;
+        font-size:40px;
+    }
+
+
+    .ready .ready-components .twoAnchor{
+        width: 540px; 
+        position: absolute;
+        top:220px;
+        left: 7%;
+        
+    }
+    .container .together .box{
+        height: 120px;
+        bottom: -50px;
+        left: -100px;
+        border: 1 solid black;
+        background-color: white;
+        z-index: 2;
+    
+    }
+    .container .together .box h3 {
+        margin:0px;
+    }
+    .footer .container .row3 .socials a{
+        padding: 25px;
+    }
+    .building .numbers .stats{
+        height: 50% !important;
+        margin-top: 0 !important;
+        padding: 0;
+    }
+    
+}
+
+    /* ready section */
+
+
+
+
+@media (max-width:768px){
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+    .header-content .header-items span{
+        color: white;
+        font-size: 55px;
+        font-weight: 500;
+    }
+    .photodisc{
+        display: flex;
+        padding-top:20px;
+        position: relative;
+        width:100%;
+    
+    }
+
+      .Safety .text-content .anchor a{
+        font-size: 11px;
+        font-weight: 700;
+
+    }
+
+    .possible .cropped img{
+        margin: -20px 0px 0px 0px;
+    }
+
+
+    .possible .cropped p{
+        width: 300px; 
+        top: 20%;
+        left: 10%;
+        font-size:35px;
+        color:#fff;
+    }
+
+
+
+    /* leadership section */
+
+
+    .leadership,.News{
+        margin-top: 0px;
+    }
+
+    
+    .leadership .leadership-components {
+        padding:20px;
+    } 
+
+    .leadership .leadership-components .elementor-btn{
+        background-color: #000;
+        color: #fff;
+        padding: 15px 25px ;
+        font-family: "Archivo";
+        font-size: 12px;
+        font-weight: 700;
+    
+    }
+
+
+
+    .leadership .leadership-components .test .arrowLeft,.leadership .leadership-components .arrowRight{
+        font-size:30px;
+        margin-right:30px;
+        margin-top:-370px;
+    }
+
+
+    .leadership .leadership-components .post-text{
+        padding-top:40px;
+        width:90%;
+        font-size:15px;
+    }
+
+
+    .leadership .leadership-components .post-text a{
+        font-size: 30px;;
+    }
+
+
+    
+    .leadership .leadership-components .post-text{
+        padding-top:0px;
+        width:75%;
+        font-size:15px;
+        font-family: "Titillium Web";
+    }
+
+
+    /* News section */
+    .News .news-block{
+        padding:70px 0px;
+    }
+
+
+    .News .news-block .insights:hover{
+        border-bottom:  0px;
+        
+    }
+
+    .News .news-block .insights .new-image{
+        width:100%;
+    }
+
+
+    /* client section */
+
+    .clients .client-image{
+        margin:50px 0px;
+    }
+
+
+    .clients .client-image h3{
+        
+        padding:0px 0px;
+        border-right:0px;
+        width:100%;
+        font-size:30px
+    }
+
+    .clients .client-image img{
+        width:30%;
+        padding-top:20px;
+
+    }
+
+    .ready .ready-components {
+        position: relative;
+        margin-top: 0px;
+        margin-left:-550px;
+        border-bottom:#ff724c solid 8px;
+    
+    }
+    
+
+    .ready .ready-components p{
+        width: 300px; 
+        height: 70%; 
+        top: 20%;
+        left: 65%;
+        font-size:40px;
+    }
+
+
+
+    .ready .ready-components .twoAnchor{
+        width: 240px; 
+        top: 60%;
+        left: 65%;
+        
+    }
+
+
+    .ready .ready-components .twoAnchor a{
+        background-color: #3f3e3d66;
+        font-weight: 600;
+        font-size:12px;
+        display: block;
+        margin-bottom:10px;
+        padding:20px 35px;
+
+    }
+
+
+    
+.ready .ready-components .twoAnchor a::after{
+    content:'';
+    position: absolute;
+    left:35px;
+    bottom:15px;    
+    height:1px;
+    width:68%;
+    background-color: #fff;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+
+   /*sustainability*/
+   .photo-disc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pic-pos2{
+    /*fan-img*/
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.pic-pos1{
+    display: none;
+}
+h2{
+    font-size: 30px;
+    align-items: center;
+}
+/*services*/
+.services{
+background-color: #000000;
+z-index: -1;
+padding: 40px;
+margin-top: 60px;
+}
+.services-field .field:hover i{
+display: none;
+}
+}
+
+/*ahmad-sec*/
+    @media(max-width:500px){
+        html,body
+        {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+        }
+        .container .together .box{
+            width: 200px;
+            height: 60px;
+            bottom: -50px;
+            left: -30px;
+            border: 1 solid black;
+            background-color: white;
+            z-index: 2;
+    }
+    .container .together .box h3 {
+        width: 100;
+        margin:10px !important;
+        padding: 0;
+        font-size: 12px !important;
+        font-weight: 600;
+    }
+    .container .together .box a{
+        margin-left: 10px !important;
+    }
+    .container .together h3::after{
+        display: none;
+    }
+    .ourProjects .projectcontent {
+        font-size: 24px;
+    }
+    .footer .container .row3 .socials a{
+        padding: 10px;
+    }
+    }
+
+
