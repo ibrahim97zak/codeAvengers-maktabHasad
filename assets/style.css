@@ -33,14 +33,336 @@ p{
 a{
   text-decoration: none;
 }
+.navbar{
+  background-color: white!important;
+  align-content:space-around;
+
+  
+}
+.navbar-brand img{
+  width: 50px;
+  height: 50px;
+   
+}
+.logo-name{
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+}
+.nav-link{
+  position: relative;
+  font-size: 12px;
+  color: #000000;
+
+  font-weight: 700;
+
+
+}
+.nav-link::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  background-color: orange;
+  transform-origin: right;
+  transform: scalex(0);
+  transition: transform 0.5s ease-in-out;
+}
+:hover::after{
+  transform-origin: left;
+  transform: scalex(1);
+
+}
+.nav-item .drop .pic-down{
+display: flex;
+}
+.nav-item .drop{
+  left: 60px;
+  top:65px;
+  width: 900px;
+  height: 650px;
+
+}
+.nav-item .drop .row{
+  justify-content: space-between;
+  gap:0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.nav-item .drop .row .sec-down h3:hover{
+  color: orange !important;
+}
+
+.nav-item .drop .row .sec-down span{
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.search-bar .search-icon::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 1px;
+  left: 25%;
+  background-color: #566E80;
+
+}
+.search-bar .search-icon a{
+  color: #566E80;
+  padding-right: 30px;
+}
+.search-bar .get a{
+  font-size: 12px;
+  color: #546B7E;
+  font-weight: 700;
+}
+.search-bar .get a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  right: 0;
+  background-color: #546B7E;
+  transform-origin: right;
+  transform: scalex(0);
+  transition: transform 0.5s ease-in-out;
+}
+.search-bar .get a:hover::after{
+  transform-origin: left;
+  transform: scalex(1);
+}
 
 /* end navbar */
 
 /* start header */
 
+.word {
+  width: 220px;
+  opacity: 0;
+}
+.header{
+  background-image: url('imges/arch.webp');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.header-content {
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+.header-content .header-items span{
+  color: white;
+  font-size: 120px;
+  font-weight: 500;
+}
+.header-content .button .button-content{
+  font-size: 12px;
+  font-weight: 600;
+
+}
+.header-content .button a{
+  border-radius: 0;
+  background-color: white;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background-color 0.8s, color 0.8s ;
+
+}
+.header-content .button a::after{
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  background-color: #000000;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.8s ease-in-out;
+  transition: background-color fixed;
+
+}
+.header-content .button a:hover::after{
+  transform-origin: left;
+  transform: scaleX(1);
+  background-color: white;
+}
+.header-content .button a:hover{
+  background-color: #000000;
+  color: white;
+
+}
+
+.container .together{
+  flex-direction: column;
+  align-items: baseline;
+  z-index: 1;
+}
+.container .together .box{
+  width: 500px;
+  height: 150px;
+  bottom: -50px;
+  left: 0px;
+  border: 1 solid black;
+  background-color: white;
+  z-index: 2;
+
+}
+.container .together h3::after{
+  content: '';
+  position: absolute;
+  bottom: 58%;
+  height: 1px;
+  width: 80px;
+  background-color: orange;
+
+
+}
+.container .together .contact{
+  color: #000000;
+  font-weight: 200;
+  
+}
+.container .together .contact:hover{
+  color: orange;
+
+}
+
+.container .row{
+  display: flex;
+  gap: 100px;
+
+}
+.container .row .row-item{
+  padding-top: 20px;
+}
+
+.container .row .row-item span{
+  font-size: 14px;
+  color: #a69898;
+}
+.container .row .row-item p{
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+  padding-top: 20px;
+  
+}
+
 /* end header */
 
 /* start footer */
+
+.footer .container .row1 .info span{
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  
+}
+.footer .container .row1 .info p{
+  font-size: 14px;
+  font-weight: 200;
+  color: #5a5656;
+  padding-top: 10px;
+  
+}
+.footer .container .row1 .info a{
+  font-size: 14px;
+  font-weight: 200;
+  color: #5a5656;
+  transition: color 0.2s;
+}
+.footer .container .row1 .info a:hover{
+  color: orange;
+}
+.footer .container .row2 .projects{
+  padding-left: 0;
+  padding-right: 40%;
+  padding-bottom: 20px;
+}
+
+
+.footer .container .row2 .projects a{
+  font-size: 20px;
+  color: #000000;
+  font-weight: 400;
+  width: max-content;
+  transition: color 0.5s;
+  
+}
+.footer .container .row2 .projects a:hover{
+  color: orange;
+}
+.footer .container .row2 .projects a::after{
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  height: 1px;
+  width:100%;
+  left: 0;
+  background-color: #000000;
+  transform-origin: right;
+  transform: scalex(0);
+  transition: transform 0.5s ease-in-out;
+  transition: background-color fixed;
+
+}
+.footer .container .row2 .projects a:hover::after{
+  transform: scalex(1);
+  transform-origin: left;
+  background-color: orange;
+}
+
+.footer .container .row2 .projects::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  left: 0;
+  background-color: #000000;
+  transition: background-color 0.5s;
+}
+.footer .container .row2 .projects:hover::after{
+  background-color: orange;
+}
+.footer .container .row3{
+  justify-content: space-between;
+
+}
+.footer .container .row3 .socials a{
+  font-size: 12px;
+  color: #000000;
+  font-weight: 400;
+  padding-top: 50px;
+  transition: color 0.5s;
+}
+.footer .container .row3 .socials a:hover{
+  color: orange;
+}
+.footer .container .row3 .socials a::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  right: 0;
+  background-color: #546B7E;
+  transform-origin: right;
+  transform: scalex(0);
+  transition: transform 0.5s ;
+}
+.footer .container .row3 .socials a:hover::after{
+  transform: scalex(1);
+  transform-origin: left;
+}
 
 
 /* .footer .container .row3 .socials */
@@ -53,9 +375,144 @@ a{
 
 /* ***********ourProject************** */
 
+.ourProjects .projectheader {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.ourProjects .projectheader::after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 1.5px;
+  background-color: #fa6400;
+  bottom: 10px;
+  left: 70px;
+}
+.ourProjects .projectcontent {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+}
+.ourProjects .headerprojectlink {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #656765;
+  position: relative;
+}
+.ourProjects .headerprojectlink:hover {
+  color: #fa6400;
+}
+
+.ourProjects .headerprojectlink::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #fa6400;
+  bottom: 4%;
+  left: 0%;
+  transition: width 0.5s;
+}
+.ourProjects .headerprojectlink:hover::after {
+  width: 100%;
+}
+
+.ourProjects #carouselExample .df {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ourProjects #carouselExample .df .parent-image {
+  padding: 0px 10px;
+}
+
+.ourProjects #carouselExample .arrowLeft,
+.ourProjects #carouselExample .arrowRight {
+  background-color: rgb(228, 225, 221);
+  font-size: 30px;
+  color: black;
+  padding: 15px 10px;
+}
+
+.carousel-inner .imgParent {
+  width: 355px;
+  height: 200px;
+  overflow: hidden;
+}
+.carousel-inner .imgParent img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.carousel-inner .imgParent img:hover {
+  transform: scale(1.2);
+}
+.ourProjects .projectLink a {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #656765;
+}
+.ourProjects h4 a {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  position: relative;
+  transition: color 0.5s;
+}
+.ourProjects h4 a:hover {
+  color: #fa6400;
+}
+.ourProjects h4 a:hover::after {
+  width: 100%;
+}
+.ourProjects h4 a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: #fa6400;
+  bottom: 4%;
+  left: 0%;
+  transition: width 0.5s;
+}
 
 
 /* **************ourSector*************** */
+
+.Proj .icon{
+
+  justify-content: space-around;
+}
+.Proj .icon img {
+  width: 120px;
+  height: 120px;
+  font-weight: 100;
+  
+}
+
+.Proj P{
+  font-size: 14px;
+}
+
+.Proj .links a{
+  font-family: "Titillium Web";
+  font-size: 12px;
+  font-weight: 400;
+  color: #4e4e4e;
+}
+.Proj .links .sectorLink {
+  background-color: #f9f9f9;
+  padding:0px 10px;
+}
+
 
 
 
@@ -553,3 +1010,223 @@ h5:before {
 }
 /*ibrahim section*/
 /* Sustainability-section*/
+.Sustainability{
+  padding: 50px;
+  margin-bottom: 120px;
+}
+.pic-pos2{
+  /*fan-img*/
+  width: 300px;
+  height: 400px;
+  z-index: 2;
+}
+.pic-pos1{
+  position: absolute;
+  left: 150px;
+  bottom: 0px;
+  width: 300px;
+  height: 300px;
+}
+.title {
+  font-family:'Titillium Web', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  background-color: white;
+  padding-right: 5px;
+  z-index: 1;
+}
+.title::after {
+  content:"";
+  top: 15px;
+  width: 60px;
+  height: 1.2px;
+  align-content: flex-start;
+position: absolute;
+background-color: #ff724c ;
+z-index: -1;
+}
+h2{
+  font-family:'Titillium Web', sans-serif ;
+  font-size: 64px;
+}
+p{
+  font-family:'Titillium Web', sans-serif ;
+  font-size: 14px;
+}
+.Sustainability .container .row .tilte-sec .butn{
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  text-decoration: none;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  line-height: 40px;
+  border: 2px solid black;
+  text-align: center;
+  transform: 0.2s;
+  transition: 0.4s;
+}
+.Sustainability .container .row .tilte-sec .butn:hover {
+  background-color: white;
+}
+
+.Sustainability .container .row .tilte-sec .sp-tex{
+  color: rgb(255, 255, 255);
+  font-family: 'Archivo', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  transition: ease-in 1s;
+}
+.Sustainability .container .row .tilte-sec .butn::after{
+  position: absolute;
+  content: "";
+  left: 30px;
+  top: 32px;
+  height: 1px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: #000000;
+  transform-origin: right;
+  transform :scaleX(0);
+  transition: transform 0.5s ease-in-out;
+  transition: background-color fixed;
+}
+
+.Sustainability .container .row .tilte-sec .butn:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+  color: black;
+}
+.Sustainability .container .row .tilte-sec .butn:hover .sp-tex {
+color: black;
+}
+/*services*/
+.services{
+  background-color: #000000;
+  z-index: -1;
+  padding: 50px;
+  margin-top: 80px;
+}
+.services-sec {
+  z-index:2;
+}
+.services-sec .title {
+padding-right: 8px;
+}
+.services-sec .title::after {
+position: absolute;
+background-color: #ff724c ;
+content:"";
+top: 14px;
+width: 60px;
+height: 1.2px;
+align-content: flex-start;
+z-index: -1;
+}
+.services-field .field{
+
+  border-bottom: 1px solid rgb(255, 255, 255,0.3) ;
+}
+.services-field .field a{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  text-align: left;
+  justify-content: space-between;
+}
+.services-field .field span{
+  width: fit-content;
+  white-space: nowrap;
+  position: relative;
+  margin-left: 30px;
+  font-family:'Titillium Web', sans-serif ;
+  font-size: 24px;
+  color: white;
+}
+
+.services-field .field span::before {
+  position: absolute;
+background-color: #ff724c ;
+content:"";
+top: 40px;
+width: 100%;
+left: 0px;
+height: 1px;
+transform-origin: right;
+transform :scaleX(0);
+transition: transform .6s ease-in-out;
+}
+.services-field .field:last-child::before {
+  position: absolute;
+  background-color: #ff724c ;
+  content:"";
+  top: 40px;
+  width: 0;
+  left: 20px;
+  height: 1px;
+  transform-origin: right;
+  transform :scaleX(0);
+  transition: transform .6s ease-in-out;
+}
+.services-field .field a :hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+.services-field .field a:hover span{
+  color: #ff724c;
+}
+
+.services-field .field i{
+  display: none;
+  text-align: right;
+  font-size: 30px;
+  color:#ff724c ;
+  opacity: 0.8;
+  z-index: 2;
+}
+.services-field .field a:hover ::after{
+  display: block;
+}
+.services-field .field:hover i{
+  display: block;
+}
+/*building for who*/
+.building{
+      margin-top: 50px;
+      justify-content: space-between;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-image:url(/assets/imges/ibrahim-section/pexels-martin-péchy-2763969.webp)
+  
+
+}
+.building .tilte-building {
+  display: flex;
+
+text-align: left;
+flex-direction: column;
+}
+.building .tilte-building span {
+  font-size: 24px;
+  font-family:'Titillium Web', sans-serif ;
+  border-bottom: 1px solid rgba(31, 17, 17, 0.2);
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+.building .numbers{
+  display: flex;
+
+text-align: left;
+flex-direction: column;
+}
+.building .numbers .stats{
+  border-bottom: 1px solid rgba(31, 17, 17, 0.2);
+}
+
+i {
+  font-weight: 300;
+}
