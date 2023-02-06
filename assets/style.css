@@ -1,65 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,400;0,500;0,600;1,200;1,300&display=swap');
-body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,400;0,500;0,600;1,200;1,300&display=swap");
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
-h2{
-  font-family:'Titillium Web', sans-serif ;
+h2 {
+  font-family: "Titillium Web", sans-serif;
   font-size: 64px;
 }
-h3{
-  font-family:'Titillium Web', sans-serif ;
+h3 {
+  font-family: "Titillium Web", sans-serif;
   font-size: 32px;
   color: #000000 !important;
 }
-p{
-  font-family:'Titillium Web', sans-serif ;
+p {
+  font-family: "Titillium Web", sans-serif;
   font-size: 14px;
 }
 /* start navbar */
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-a{
+a {
   text-decoration: none;
 }
-.navbar{
-  background-color: white!important;
-  align-content:space-around;
-
-  
+.navbar {
+  background-color: white !important;
+  align-content: space-around;
 }
-.navbar-brand img{
+.navbar-brand img {
   width: 50px;
   height: 50px;
-   
 }
-.logo-name{
+.logo-name {
   font-size: 18px;
   color: #000000;
   font-weight: 500;
 }
-.nav-link{
+.nav-link {
   position: relative;
   font-size: 12px;
   color: #000000;
 
   font-weight: 700;
-
-
 }
-.nav-link::after{
-  content: '';
+.nav-link::after {
+  content: "";
   position: absolute;
   bottom: 0;
   height: 1px;
@@ -70,70 +64,67 @@ a{
   transform: scalex(0);
   transition: transform 0.5s ease-in-out;
 }
-:hover::after{
+:hover::after {
   transform-origin: left;
   transform: scalex(1);
-
 }
-.nav-item .drop .pic-down{
-display: flex;
+.nav-item .drop .pic-down {
+  display: flex;
 }
-.nav-item .drop{
+.nav-item .drop {
   left: 60px;
-  top:65px;
+  top: 65px;
   width: 900px;
   height: 650px;
-
 }
-.nav-item .drop .row{
+.nav-item .drop .row {
   justify-content: space-between;
-  gap:0;
+  gap: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: nowrap;
 }
-.nav-item .drop .row .sec-down h3:hover{
+.nav-item .drop .row .sec-down h3:hover {
   color: orange !important;
 }
 
-.nav-item .drop .row .sec-down span{
+.nav-item .drop .row .sec-down span {
   font-size: 14px;
   font-weight: 200;
 }
 
-.search-bar .search-icon::after{
-  content: '';
+.search-bar .search-icon::after {
+  content: "";
   position: absolute;
   bottom: 0;
   height: 100%;
   width: 1px;
   left: 25%;
-  background-color: #566E80;
-
+  background-color: #566e80;
 }
-.search-bar .search-icon a{
-  color: #566E80;
+.search-bar .search-icon a {
+  color: #566e80;
   padding-right: 30px;
 }
-.search-bar .get a{
+.search-bar .get a {
   font-size: 12px;
-  color: #546B7E;
+  color: #546b7e;
   font-weight: 700;
 }
 .search-bar .get a::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   height: 1px;
   width: 100%;
   right: 0;
-  background-color: #546B7E;
+  background-color: #546b7e;
   transform-origin: right;
   transform: scalex(0);
   transition: transform 0.5s ease-in-out;
 }
-.search-bar .get a:hover::after{
+.search-bar .get a:hover::after {
   transform-origin: left;
   transform: scalex(1);
 }
@@ -146,8 +137,8 @@ display: flex;
   width: 220px;
   opacity: 0;
 }
-.header{
-  background-image: url('imges/arch.webp');
+.header {
+  background-image: url("imges/arch.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -157,26 +148,24 @@ display: flex;
   align-items: flex-end;
 }
 
-.header-content .header-items span{
+.header-content .header-items span {
   color: white;
   font-size: 120px;
   font-weight: 500;
 }
-.header-content .button .button-content{
+.header-content .button .button-content {
   font-size: 12px;
   font-weight: 600;
-
 }
-.header-content .button a{
+.header-content .button a {
   border-radius: 0;
   background-color: white;
   font-size: 12px;
   font-weight: 600;
-  transition: background-color 0.8s, color 0.8s ;
-
+  transition: background-color 0.8s, color 0.8s;
 }
-.header-content .button a::after{
-  content: '';
+.header-content .button a::after {
+  content: "";
   position: absolute;
   bottom: 2px;
   height: 1px;
@@ -187,25 +176,23 @@ display: flex;
   transform: scaleX(0);
   transition: transform 0.8s ease-in-out;
   transition: background-color fixed;
-
 }
-.header-content .button a:hover::after{
+.header-content .button a:hover::after {
   transform-origin: left;
   transform: scaleX(1);
   background-color: white;
 }
-.header-content .button a:hover{
+.header-content .button a:hover {
   background-color: #000000;
   color: white;
-
 }
 
-.container .together{
+.container .together {
   flex-direction: column;
   align-items: baseline;
   z-index: 1;
 }
-.container .together .box{
+.container .together .box {
   width: 500px;
   height: 150px;
   bottom: -50px;
@@ -213,115 +200,103 @@ display: flex;
   border: 1 solid black;
   background-color: white;
   z-index: 2;
-
 }
-.container .together h3::after{
-  content: '';
+.container .together h3::after {
+  content: "";
   position: absolute;
   bottom: 58%;
   height: 1px;
   width: 80px;
   background-color: orange;
-
-
 }
-.container .together .contact{
+.container .together .contact {
   color: #000000;
   font-weight: 200;
-  
 }
-.container .together .contact:hover{
+.container .together .contact:hover {
   color: orange;
-
 }
 
-.container .row{
+.container .row {
   display: flex;
   gap: 100px;
-
 }
-.container .row .row-item{
+.container .row .row-item {
   padding-top: 20px;
 }
 
-.container .row .row-item span{
+.container .row .row-item span {
   font-size: 14px;
   color: #a69898;
 }
-.container .row .row-item p{
+.container .row .row-item p {
   font-size: 20px;
   color: #000000;
   font-weight: 400;
   padding-top: 20px;
-  
 }
 
 /* end header */
 
 /* start footer */
 
-.footer .container .row1 .info span{
+.footer .container .row1 .info span {
   font-size: 14px;
   font-weight: 500;
   color: #000000;
-  
 }
-.footer .container .row1 .info p{
+.footer .container .row1 .info p {
   font-size: 14px;
   font-weight: 200;
   color: #5a5656;
   padding-top: 10px;
-  
 }
-.footer .container .row1 .info a{
+.footer .container .row1 .info a {
   font-size: 14px;
   font-weight: 200;
   color: #5a5656;
   transition: color 0.2s;
 }
-.footer .container .row1 .info a:hover{
+.footer .container .row1 .info a:hover {
   color: orange;
 }
-.footer .container .row2 .projects{
+.footer .container .row2 .projects {
   padding-left: 0;
   padding-right: 40%;
   padding-bottom: 20px;
 }
 
-
-.footer .container .row2 .projects a{
+.footer .container .row2 .projects a {
   font-size: 20px;
   color: #000000;
   font-weight: 400;
   width: max-content;
   transition: color 0.5s;
-  
 }
-.footer .container .row2 .projects a:hover{
+.footer .container .row2 .projects a:hover {
   color: orange;
 }
-.footer .container .row2 .projects a::after{
-  content: '';
+.footer .container .row2 .projects a::after {
+  content: "";
   position: absolute;
   bottom: -2px;
   height: 1px;
-  width:100%;
+  width: 100%;
   left: 0;
   background-color: #000000;
   transform-origin: right;
   transform: scalex(0);
   transition: transform 0.5s ease-in-out;
   transition: background-color fixed;
-
 }
-.footer .container .row2 .projects a:hover::after{
+.footer .container .row2 .projects a:hover::after {
   transform: scalex(1);
   transform-origin: left;
   background-color: orange;
 }
 
-.footer .container .row2 .projects::after{
-  content: '';
+.footer .container .row2 .projects::after {
+  content: "";
   position: absolute;
   bottom: 0;
   height: 1px;
@@ -330,48 +305,42 @@ display: flex;
   background-color: #000000;
   transition: background-color 0.5s;
 }
-.footer .container .row2 .projects:hover::after{
+.footer .container .row2 .projects:hover::after {
   background-color: orange;
 }
-.footer .container .row3{
+.footer .container .row3 {
   justify-content: space-between;
-
 }
-.footer .container .row3 .socials a{
+.footer .container .row3 .socials a {
   font-size: 12px;
   color: #000000;
   font-weight: 400;
   padding-top: 50px;
   transition: color 0.5s;
 }
-.footer .container .row3 .socials a:hover{
+.footer .container .row3 .socials a:hover {
   color: orange;
 }
-.footer .container .row3 .socials a::after{
-  content: '';
+.footer .container .row3 .socials a::after {
+  content: "";
   position: absolute;
   bottom: 0;
   height: 1px;
   width: 100%;
   right: 0;
-  background-color: #546B7E;
+  background-color: #546b7e;
   transform-origin: right;
   transform: scalex(0);
-  transition: transform 0.5s ;
+  transition: transform 0.5s;
 }
-.footer .container .row3 .socials a:hover::after{
+.footer .container .row3 .socials a:hover::after {
   transform: scalex(1);
   transform-origin: left;
 }
 
-
 /* .footer .container .row3 .socials */
 
-
 /* end footer */
-
-
-
 
 /* ***********ourProject************** */
 
@@ -484,25 +453,22 @@ display: flex;
   transition: width 0.5s;
 }
 
-
 /* **************ourSector*************** */
 
-.Proj .icon{
-
+.Proj .icon {
   justify-content: space-around;
 }
 .Proj .icon img {
   width: 120px;
   height: 120px;
   font-weight: 100;
-  
 }
 
-.Proj P{
+.Proj P {
   font-size: 14px;
 }
 
-.Proj .links a{
+.Proj .links a {
   font-family: "Titillium Web";
   font-size: 12px;
   font-weight: 400;
@@ -510,41 +476,36 @@ display: flex;
 }
 .Proj .links .sectorLink {
   background-color: #f9f9f9;
-  padding:0px 10px;
+  padding: 0px 10px;
 }
-
-
-
 
 /* *************************************************** */
 
 /* public ########## */
 
-
-
-
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-
-h1,h2,h3,h4,h5,h6{
-    font-family: "Titillium Web";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Titillium Web";
 }
 
-h2{
-    font-size: 64px;
-    font-weight: 400;
-    
+h2 {
+  font-size: 64px;
+  font-weight: 400;
 }
-h3{
-    font-size: 22px;
+h3 {
+  font-size: 22px;
 }
 h5 {
-          
-    position: relative;
+  position: relative;
 }
-
 
 h5:before {
   content: "";
@@ -557,14 +518,10 @@ h5:before {
   position: absolute;
 }
 
-
-
 /* Muhannad section ########## */
-.Safety{
-  margin-top:100px;
+.Safety {
+  margin-top: 100px;
 }
-
-
 
 .Safety .parent {
   position: relative;
@@ -577,116 +534,100 @@ h5:before {
   position: relative;
   bottom: 80px;
   left: 70px;
-  width:300px;
-
-  
+  width: 300px;
 }
 .Safety .parent .imgBtmRight {
   position: absolute;
   bottom: 30px;
   left: 30px;
-  width:300px;
+  width: 300px;
 }
-.Safety .text-content{
-    /* background-color: #ff724c; */
-    padding: 40px;
-}
-
-
-.Safety .text-content  .title-section{
-    font-weight: 400;
-    font-family: "Titillium Web";
+.Safety .text-content {
+  /* background-color: #ff724c; */
+  padding: 40px;
 }
 
-.Safety .text-content .title-section::after{
-    background-color: #ff724c;
-    position: absolute;
-    left: 50%;
+.Safety .text-content .title-section {
+  font-weight: 400;
+  font-family: "Titillium Web";
 }
 
-.Safety .text-content h2{
-  width:80%;
+.Safety .text-content .title-section::after {
+  background-color: #ff724c;
+  position: absolute;
+  left: 50%;
 }
 
-.Safety .text-content p{
-    width:80%;
+.Safety .text-content h2 {
+  width: 80%;
 }
 
-
-.Safety .text-content .anchor{
-    display: flex;
-    padding-top:20px;
-    position: relative;
-    width:100%
-
+.Safety .text-content p {
+  width: 80%;
 }
 
-.Safety .text-content .anchor  a{
-    margin-right:16px ;
-    font-family: "Archivo";
-    font-size: 14px;
-    color:#000;
-    position: relative;
-    transition: .2s;
-    width:fit-content;
-    padding-bottom:10px;
-    padding-right:20px;
-
+.Safety .text-content .anchor {
+  display: flex;
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
 }
 
-
-.Safety .text-content .anchor .anchor-learnMore{
-    border-right:#adadad solid 1px;
-    
+.Safety .text-content .anchor a {
+  margin-right: 16px;
+  font-family: "Archivo";
+  font-size: 14px;
+  color: #000;
+  position: relative;
+  transition: 0.2s;
+  width: fit-content;
+  padding-bottom: 10px;
+  padding-right: 20px;
 }
 
-
-
-
-
-
-.Safety .text-content .anchor > a:hover{
-    color: #ff724c;
+.Safety .text-content .anchor .anchor-learnMore {
+  border-right: #adadad solid 1px;
 }
 
-.Safety .text-content .anchor a:after{
-    content: '';
-    position: absolute;
-    background-color: #ff724c;
-    height: 1px;
-    width:0;
-    left: 0;
-    bottom: 12px;
-    transition: .5s;
+.Safety .text-content .anchor > a:hover {
+  color: #ff724c;
 }
 
+.Safety .text-content .anchor a:after {
+  content: "";
+  position: absolute;
+  background-color: #ff724c;
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: 12px;
+  transition: 0.5s;
+}
 
-.Safety .text-content .anchor a:hover:after{
-    width: calc(100% - 20px);
+.Safety .text-content .anchor a:hover:after {
+  width: calc(100% - 20px);
 }
 
 .possible .cropped {
- width: 100%; 
- height: 70%; 
- overflow: hidden;
- position: relative;
-
- }
-.possible  img{
- margin: -100px 0px -40px 0px;
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
+  position: relative;
+}
+.possible img {
+  margin: -100px 0px -40px 0px;
 }
 
-.possible p{
- width: 700px; 
- height: 70%; 
- position: absolute;
- top: 20%;
- left: 20%;
- font-family: "Titillium Web";
- font-weight: 790;
- font-size:100px;
- color:#fff;
-
+.possible p {
+  width: 700px;
+  height: 70%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  font-family: "Titillium Web";
+  font-weight: 790;
+  font-size: 100px;
+  color: #fff;
 }
 
 /* .Safety .text-content .anchor .anchor-learnMore::after{
@@ -696,331 +637,301 @@ h5:before {
 
 /* leadership */
 
-.leadership,.News{
-    margin-top: 100px;
+.leadership,
+.News {
+  margin-top: 100px;
 }
 
-
-.leadership .leadership-components h2{
-  
-    padding-top:100px
+.leadership .leadership-components h2 {
+  padding-top: 100px;
 }
 
-.leadership .leadership-components .elementor-btn{
-    background-color: #000;
-    color: #fff;
-    padding: 15px 25px ;
-    font-family: "Archivo";
-    font-size: 14px;
-    position: relative;
-    transition: .5s;
-
+.leadership .leadership-components .elementor-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+  font-family: "Archivo";
+  font-size: 14px;
+  position: relative;
+  transition: 0.5s;
 }
 
 /* .leadership .leadership-components #carouselExampleControls{
     background-color: red;
 } */
 
-.leadership .leadership-components .test .arrowLeft{
-    background-color: rgb(228, 225, 221);
-    font-size:30px;
-    margin-right:110px;
-    color:black;
-    padding:15px 10px;
+.leadership .leadership-components .test .arrowLeft {
+  background-color: rgb(228, 225, 221);
+  font-size: 30px;
+  margin-right: 110px;
+  color: black;
+  padding: 15px 10px;
 }
 
-.leadership .leadership-components .arrowRight{
-    background-color: rgb(228, 225, 221);
-    font-size:30px;
-    margin-left:40px;
-    color:black;
-    padding:15px 10px;
+.leadership .leadership-components .arrowRight {
+  background-color: rgb(228, 225, 221);
+  font-size: 30px;
+  margin-left: 40px;
+  color: black;
+  padding: 15px 10px;
 }
 
-
-.leadership .leadership-components .elementor-btn:hover{
-    border:solid 2px #000;
-    background-color: #fff;
-    color:#000;
+.leadership .leadership-components .elementor-btn:hover {
+  border: solid 2px #000;
+  background-color: #fff;
+  color: #000;
 }
 
-.leadership .leadership-components .elementor-btn p{
-    display: inline-block;
-    width:fit-content;
+.leadership .leadership-components .elementor-btn p {
+  display: inline-block;
+  width: fit-content;
 }
 
-.leadership .leadership-components .elementor-btn p:after{
-    content: '';
-    width:0;
-    height: .5px;
-    position: absolute;
-    background-color:#000;
-    bottom: 12px;
-    left: 15%;
-    transition: .7s;
+.leadership .leadership-components .elementor-btn p:after {
+  content: "";
+  width: 0;
+  height: 0.5px;
+  position: absolute;
+  background-color: #000;
+  bottom: 12px;
+  left: 15%;
+  transition: 0.7s;
 }
 
-.leadership .leadership-components .elementor-btn:hover p:after{
-    width:70%;
+.leadership .leadership-components .elementor-btn:hover p:after {
+  width: 70%;
 }
 
-.leadership .leadership-components .post-text{
-    padding-top:100px;
-    width:75%;
-    font-size:15px;
-    font-family: "Titillium Web";
+.leadership .leadership-components .post-text {
+  padding-top: 100px;
+  width: 75%;
+  font-size: 15px;
+  font-family: "Titillium Web";
 }
 
-.leadership .leadership-components .post-text a{
-    color:#000;
-    position:relative;
-    font-family: "Titillium Web";
-    transition: .2s;
-    width:fit-content;
+.leadership .leadership-components .post-text a {
+  color: #000;
+  position: relative;
+  font-family: "Titillium Web";
+  transition: 0.2s;
+  width: fit-content;
 }
 
-.leadership .leadership-components .post-text a:hover{
-    color:#ff724c;
+.leadership .leadership-components .post-text a:hover {
+  color: #ff724c;
 }
 
-.leadership .leadership-components .post-text a:after{
-    content: '';
-    width:100%;
-    height: 1px;
-    position: absolute;
-    background-color:#ff724c;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 0.6s;
-
+.leadership .leadership-components .post-text a:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #ff724c;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.6s;
 }
 
-.leadership .leadership-components .post-text a:hover:after{
-    transform-origin: left;
-    transform: scalex(1);
+.leadership .leadership-components .post-text a:hover:after {
+  transform-origin: left;
+  transform: scalex(1);
 }
 
-
-
-
-.leadership .leadership-components .leadership-image img{
-    width:100%;
-    transition: .5s;
+.leadership .leadership-components .leadership-image img {
+  width: 100%;
+  transition: 0.5s;
 }
 
-.leadership .leadership-components .leadership-image img:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-
-
+.leadership .leadership-components .leadership-image img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
-.img-over{
-    overflow:hidden;
+.img-over {
+  overflow: hidden;
 }
 
 /* News Section */
 
-.News{
-    background-color:#F9F9F9;
-    margin-top:100px;
+.News {
+  background-color: #f9f9f9;
+  margin-top: 100px;
 }
 
-.News .news-block{
-    padding:180px 0px;
+.News .news-block {
+  padding: 180px 0px;
 }
 
-.News .news-block .insights{
-    transition: .5s;
+.News .news-block .insights {
+  transition: 0.5s;
 }
-.News .news-block .insights:hover{
-    border-bottom: #000 solid 3px;
-    
-}
-
-
-.News .news-block .insights .new-image{
-    width:80%;
-}
-.News .news-block .insights .new-image img{
-    transition: .9s;
-
-}
-.News .news-block .insights .new-image img:hover{
-    transform:scale(1.2);
-    cursor: pointer;
+.News .news-block .insights:hover {
+  border-bottom: #000 solid 3px;
 }
 
-
-.News .news-block .insights .new-image > a{
-    color:#adadad;
-    font-size:14px;
-    display: inline-block;
-    transition: .2s;
+.News .news-block .insights .new-image {
+  width: 80%;
+}
+.News .news-block .insights .new-image img {
+  transition: 0.9s;
+}
+.News .news-block .insights .new-image img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
-.News .news-block .insights .new-image > a:hover{
-    color:#ff724c
+.News .news-block .insights .new-image > a {
+  color: #adadad;
+  font-size: 14px;
+  display: inline-block;
+  transition: 0.2s;
 }
 
-.News .news-block .insights .new-image h4 a{
-    color:#000;
-    margin-top:10px;
-    display: inline-block;
-    transition: .2s;
-    position: relative;
-    width:fit-content;
-
+.News .news-block .insights .new-image > a:hover {
+  color: #ff724c;
 }
 
-
-.News .news-block .insights .new-image h4 a:hover{
-    color: #ff724c;
-    
+.News .news-block .insights .new-image h4 a {
+  color: #000;
+  margin-top: 10px;
+  display: inline-block;
+  transition: 0.2s;
+  position: relative;
+  width: fit-content;
 }
 
-
-.News .news-block .insights .new-image h4 a:after{
-    content: '';
-    width:0;
-    height: 1px;
-    position: absolute;
-    background-color:#ff724c;
-    bottom: 0;
-    left: 0;
-    transition: .5s;
-    
+.News .news-block .insights .new-image h4 a:hover {
+  color: #ff724c;
 }
 
-
-.News .news-block .insights .new-image h4 a:hover:after{
-    width:100%;
+.News .news-block .insights .new-image h4 a:after {
+  content: "";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  background-color: #ff724c;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
 }
 
-
+.News .news-block .insights .new-image h4 a:hover:after {
+  width: 100%;
+}
 
 /* client section */
 
-.clients .client-image{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin:100px 0px;
+.clients .client-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 100px 0px;
 }
 
-
-
-.clients .client-image h3{
-    padding:20px 40px;
-    border-right:1px #adadad solid;
+.clients .client-image h3 {
+  padding: 20px 40px;
+  border-right: 1px #adadad solid;
 }
-
 
 /* ready section */
 
-
 .ready .ready-components {
-    position: relative;
-    margin-top: -100px;
-    border-bottom:#ff724c solid 8px;
-
+  position: relative;
+  margin-top: -100px;
+  border-bottom: #ff724c solid 8px;
 }
 
-.ready .ready-components img{
-    margin-bottom:-3px;
+.ready .ready-components img {
+  margin-bottom: -3px;
 }
-.ready .ready-components p{
-    width: 500px; 
-    height: 70%; 
-    position: absolute;
-    top: 30%;
-    left: 9%;
-    font-family: "Titillium Web";
-    font-weight: 400;
-    font-size:70px;
-    color:#fff;
+.ready .ready-components p {
+  width: 500px;
+  height: 70%;
+  position: absolute;
+  top: 30%;
+  left: 9%;
+  font-family: "Titillium Web";
+  font-weight: 400;
+  font-size: 70px;
+  color: #fff;
 }
-
 
 .ready .ready-components .work:before {
-    content: "work";
-    animation-name: replacement;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  content: "work";
+  animation-name: replacement;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes replacement {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-        content: "Build";
-    }
+  100% {
+    opacity: 1;
+    content: "Build";
+  }
 }
 
-.ready .ready-components .twoAnchor{
-    width: 540px; 
-    position: absolute;
-    top:420px;
-    left: 9%;
-    font-family: "Archivo";
-    
+.ready .ready-components .twoAnchor {
+  width: 540px;
+  position: absolute;
+  top: 420px;
+  left: 9%;
+  font-family: "Archivo";
 }
 
-.ready .ready-components .twoAnchor a{
-    background-color: #3f3e3d66;
-    font-weight: 600;
-    font-size:12px;
-    color:rgb(255,255,255);
-    padding:30px 45px;
-    margin-right:10px;
-    transition: .5s;
-    position: relative;
+.ready .ready-components .twoAnchor a {
+  background-color: #3f3e3d66;
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  padding: 30px 45px;
+  margin-right: 10px;
+  transition: 0.5s;
+  position: relative;
 }
 
-
-.ready .ready-components .twoAnchor a:hover{
-    background-color: #ff724c;
+.ready .ready-components .twoAnchor a:hover {
+  background-color: #ff724c;
 }
 
-
-.ready .ready-components .twoAnchor a::after{
-    content:'';
-    position: absolute;
-    left:45px;
-    bottom:28px;    
-    height:1px;
-    width:64%;
-    background-color: #fff;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform 0.6s ease-in-out;
+.ready .ready-components .twoAnchor a::after {
+  content: "";
+  position: absolute;
+  left: 45px;
+  bottom: 28px;
+  height: 1px;
+  width: 64%;
+  background-color: #fff;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.6s ease-in-out;
 }
 
-.ready .ready-components .twoAnchor a:hover:after{
-    transform-origin: left;
-    transform: scalex(1);
+.ready .ready-components .twoAnchor a:hover:after {
+  transform-origin: left;
+  transform: scalex(1);
 }
 /*ibrahim section*/
 /* Sustainability-section*/
-.Sustainability{
+.Sustainability {
   padding: 50px;
   margin-bottom: 120px;
 }
-.pic-pos2{
+.pic-pos2 {
   /*fan-img*/
   width: 300px;
   height: 400px;
   z-index: 2;
 }
-.pic-pos1{
+.pic-pos1 {
   position: absolute;
   left: 150px;
   bottom: 0px;
@@ -1028,7 +939,7 @@ h5:before {
   height: 300px;
 }
 .title {
-  font-family:'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: black;
@@ -1037,24 +948,24 @@ h5:before {
   z-index: 1;
 }
 .title::after {
-  content:"";
+  content: "";
   top: 15px;
   width: 60px;
   height: 1.2px;
   align-content: flex-start;
-position: absolute;
-background-color: #ff724c ;
-z-index: -1;
+  position: absolute;
+  background-color: #ff724c;
+  z-index: -1;
 }
-h2{
-  font-family:'Titillium Web', sans-serif ;
+h2 {
+  font-family: "Titillium Web", sans-serif;
   font-size: 64px;
 }
-p{
-  font-family:'Titillium Web', sans-serif ;
+p {
+  font-family: "Titillium Web", sans-serif;
   font-size: 14px;
 }
-.Sustainability .container .row .tilte-sec .butn{
+.Sustainability .container .row .tilte-sec .butn {
   position: relative;
   background-color: rgb(0, 0, 0);
   text-decoration: none;
@@ -1071,14 +982,14 @@ p{
   background-color: white;
 }
 
-.Sustainability .container .row .tilte-sec .sp-tex{
+.Sustainability .container .row .tilte-sec .sp-tex {
   color: rgb(255, 255, 255);
-  font-family: 'Archivo', sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 12px;
   font-weight: bold;
   transition: ease-in 1s;
 }
-.Sustainability .container .row .tilte-sec .butn::after{
+.Sustainability .container .row .tilte-sec .butn::after {
   position: absolute;
   content: "";
   left: 30px;
@@ -1088,7 +999,7 @@ p{
   border-radius: 40px;
   background-color: #000000;
   transform-origin: right;
-  transform :scaleX(0);
+  transform: scaleX(0);
   transition: transform 0.5s ease-in-out;
   transition: background-color fixed;
 }
@@ -1099,36 +1010,35 @@ p{
   color: black;
 }
 .Sustainability .container .row .tilte-sec .butn:hover .sp-tex {
-color: black;
+  color: black;
 }
 /*services*/
-.services{
+.services {
   background-color: #000000;
   z-index: -1;
   padding: 50px;
   margin-top: 80px;
 }
 .services-sec {
-  z-index:2;
+  z-index: 2;
 }
 .services-sec .title {
-padding-right: 8px;
+  padding-right: 8px;
 }
 .services-sec .title::after {
-position: absolute;
-background-color: #ff724c ;
-content:"";
-top: 14px;
-width: 60px;
-height: 1.2px;
-align-content: flex-start;
-z-index: -1;
+  position: absolute;
+  background-color: #ff724c;
+  content: "";
+  top: 14px;
+  width: 60px;
+  height: 1.2px;
+  align-content: flex-start;
+  z-index: -1;
 }
-.services-field .field{
-
-  border-bottom: 1px solid rgb(255, 255, 255,0.3) ;
+.services-field .field {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
 }
-.services-field .field a{
+.services-field .field a {
   position: relative;
   width: 100%;
   height: 60px;
@@ -1138,92 +1048,90 @@ z-index: -1;
   text-align: left;
   justify-content: space-between;
 }
-.services-field .field span{
+.services-field .field span {
   width: fit-content;
   white-space: nowrap;
   position: relative;
   margin-left: 30px;
-  font-family:'Titillium Web', sans-serif ;
+  font-family: "Titillium Web", sans-serif;
   font-size: 24px;
   color: white;
 }
 
 .services-field .field span::before {
   position: absolute;
-background-color: #ff724c ;
-content:"";
-top: 40px;
-width: 100%;
-left: 0px;
-height: 1px;
-transform-origin: right;
-transform :scaleX(0);
-transition: transform .6s ease-in-out;
+  background-color: #ff724c;
+  content: "";
+  top: 40px;
+  width: 100%;
+  left: 0px;
+  height: 1px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.6s ease-in-out;
 }
 .services-field .field:last-child::before {
   position: absolute;
-  background-color: #ff724c ;
-  content:"";
+  background-color: #ff724c;
+  content: "";
   top: 40px;
   width: 0;
   left: 20px;
   height: 1px;
   transform-origin: right;
-  transform :scaleX(0);
-  transition: transform .6s ease-in-out;
+  transform: scaleX(0);
+  transition: transform 0.6s ease-in-out;
 }
 .services-field .field a :hover::before {
   transform-origin: left;
   transform: scaleX(1);
 }
-.services-field .field a:hover span{
+.services-field .field a:hover span {
   color: #ff724c;
 }
 
-.services-field .field i{
+.services-field .field i {
   display: none;
   text-align: right;
   font-size: 30px;
-  color:#ff724c ;
+  color: #ff724c;
   opacity: 0.8;
   z-index: 2;
 }
-.services-field .field a:hover ::after{
+.services-field .field a:hover ::after {
   display: block;
 }
-.services-field .field:hover i{
+.services-field .field:hover i {
   display: block;
 }
 /*building for who*/
-.building{
-      margin-top: 50px;
-      justify-content: space-between;
-      background-position: center bottom;
-      background-repeat: no-repeat;
-      background-image:url(/assets/imges/ibrahim-section/pexels-martin-péchy-2763969.webp)
-  
-
+.building {
+  margin-top: 50px;
+  justify-content: space-between;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-image: url(/assets/imges/ibrahim-section/pexels-martin-péchy-2763969.webp);
 }
 .building .tilte-building {
   display: flex;
 
-text-align: left;
-flex-direction: column;
+  text-align: left;
+  flex-direction: column;
 }
 .building .tilte-building span {
   font-size: 24px;
-  font-family:'Titillium Web', sans-serif ;
+  font-family: "Titillium Web", sans-serif;
   border-bottom: 1px solid rgba(31, 17, 17, 0.2);
   margin-bottom: 40px;
   padding-bottom: 20px;
 }
-.building .numbers{
+.building .numbers {
   display: flex;
 
-text-align: left;
-flex-direction: column;
+  text-align: left;
+  flex-direction: column;
 }
-.building .numbers .stats{
+.building .numbers .stats {
   border-bottom: 1px solid rgba(31, 17, 17, 0.2);
 }
 
