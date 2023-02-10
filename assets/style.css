@@ -93,13 +93,18 @@ display: flex;
   align-items: center;
   flex-wrap: nowrap;
 }
-.nav-item .drop .row .sec-down h3:hover{
+.nav-item .drop .row .sec-down .menu-link:hover h3{
   color: orange !important;
 }
 
 .nav-item .drop .row .sec-down span{
   font-size: 14px;
   font-weight: 200;
+  color: #000;
+  margin-left: 10px;
+}
+.nav-item .drop .row .sec-down .menu-link:hover span{
+  color: orange !important;
 }
 
 .search-bar .search-icon::after{
@@ -531,6 +536,9 @@ a{
 h1,h2,h3,h4,h5,h6{
     font-family: "Titillium Web";
 }
+h1{
+  font-size: 80px !important;
+}
 
 h2{
     font-size: 64px;
@@ -706,7 +714,7 @@ h5:before {
     padding-top:100px
 }
 
-.leadership .leadership-components .elementor-btn{
+.elementor-btn{
     background-color: #000;
     color: #fff;
     padding: 15px 25px ;
@@ -717,9 +725,6 @@ h5:before {
 
 }
 
-/* .leadership .leadership-components #carouselExampleControls{
-    background-color: red;
-} */
 
 .leadership .leadership-components .test .arrowLeft{
     background-color: rgb(228, 225, 221);
@@ -738,18 +743,18 @@ h5:before {
 }
 
 
-.leadership .leadership-components .elementor-btn:hover{
+ .elementor-btn:hover{
     border:solid 2px #000;
     background-color: #fff;
     color:#000;
 }
 
-.leadership .leadership-components .elementor-btn p{
+ .elementor-btn p{
     display: inline-block;
     width:fit-content;
 }
 
-.leadership .leadership-components .elementor-btn p:after{
+ .elementor-btn p:after{
     content: '';
     width:0;
     height: .5px;
@@ -760,7 +765,7 @@ h5:before {
     transition: .7s;
 }
 
-.leadership .leadership-components .elementor-btn:hover p:after{
+ .elementor-btn:hover p:after{
     width:70%;
 }
 
@@ -1229,4 +1234,102 @@ flex-direction: column;
 
 i {
   font-weight: 300;
+}
+/*construction*/
+.const-btn{
+  right: 0;
+  bottom: -3px;
+  width: 200px;
+  height: 80px;
+  background-color: #F9F9F9;
+  border-radius: 1px;
+  border: 1px solid #f9f9f9;
+  z-index: 2;
+}
+.const-btn a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.const-btn a i{
+  height: 100% !important;
+  padding: 0 !important;
+  margin-bottom: 9px;
+}
+
+.const-btn span{
+  font-family: "Titillium Web" !important;
+  font-size: 20px;
+  height: 100% !important;
+
+}
+/*construction*/
+.onhov-pc{
+  overflow: hidden;
+}
+.onhov-pc img{
+  object-fit: cover;
+  
+  scale: 1.0;
+  transition: scale 0.8s ease-out;
+}
+.onhov-pc:hover img {
+  scale: 1.12;
+}
+
+
+.fixed-pic{
+  background-image: url(../assets/imges/ibrahim-section/GettyImages-1003354536-1-2048x1045.jpg);
+  min-height: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+  
+  
+}
+.carousel-control-prev ,.carousel-control-next{
+  max-width: fit-content;
+}
+.scrolltop{
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  padding:10px 15px;
+  background-color:#5a5656;
+  color:#fff;
+  border-radius:5px;
+  border-radius:1px solid #fff;
+  cursor:pointer;
+  transition:all 0.5s ease 0s;
+  z-index: 11;
+  
+}
+.scrolup{
+  color: #F9F9F9;
+}
+.nextsib {
+  font-family: "Titillium Web" !important;
+}
+.nextsib a:hover{
+  color:#ff724c!important;
+}
+.canv-btn{
+  position:fixed;
+  bottom:30px;
+  right:10px;
+  padding:13px;
+  background-color:#5a5656;
+  color:#fff;
+  border-radius:28px 7px;
+  border-radius:1px solid #fff;
+  cursor:pointer;
+  transition:all 0.5s ease 0s;
+  z-index: 11;
+  width: 60px;
+  height: 60px;
+  font-size: 10px !important;
+  word-wrap: break-word;
+  text-align:center;
+  
 }

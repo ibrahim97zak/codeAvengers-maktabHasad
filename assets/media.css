@@ -196,7 +196,12 @@
         margin-top: 0 !important;
         padding: 0;
     }
-    
+    .scrolltop{
+        display: none !important;
+    }
+    .canv-btn{
+        display: block !important;
+    }
 }
 
     /* ready section */
