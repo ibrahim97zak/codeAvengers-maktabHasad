@@ -487,6 +487,14 @@ display: none;
         
     }
 
+    /* our commitment */
+    .OurCommitment .cropped,.about .cropped  {
+        width: 100%; 
+        height: 100%; 
+        padding-bottom: 0px;
+        overflow: visible;
+        }
+
 
     }
 

@@ -1,0 +1,27 @@
+ /* Leaderghips page */
+
+
+ @media screen and (min-width:576px) and (max-width:991px){ 
+    .LeadershipTop .items .item h2{
+        font-weight: 700;
+        font-size: 60px;
+        font-family: "Titillium Web";
+      }
+}
+@media screen and (max-width:576px) {
+    .LeadershipTop .items .item {
+        text-align: center;
+        border-right:  0px;
+        border-bottom: #adadad solid 1px
+      }
+
+      .LeadershipTop .items  .oneHundred,.LeadershipTop .items .twenty,.LeadershipTop .items  .thirty{
+        height:200px;
+      }
+
+      .LeadershipTop .items .p-twenty,.LeadershipTop .items .p-thirty{
+        padding-top:50px
+      }
+
+      
+}
