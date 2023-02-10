@@ -42,7 +42,6 @@ a{
 .navbar-brand img{
   width: 50px;
   height: 50px;
-   
 }
 .logo-name{
   font-size: 18px;
@@ -529,7 +528,7 @@ display: flex;
 
 
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 
@@ -560,7 +559,7 @@ h5:before {
   width: 60px;
   height: 1.5px;
   background-color: rgb(255, 127, 36);
-  left: 60px;
+  left: 80px;
   top: 50%;
   position: absolute;
 }
@@ -832,9 +831,71 @@ h5:before {
     background-color:#F9F9F9;
     margin-top:100px;
 }
+.newsSection{
+  background-color: white!important;
+}
 
 .News .news-block{
     padding:180px 0px;
+}
+.newsTitle{
+  padding:90px 0px!important;
+}
+
+
+.winthropDesc{
+  background-color: #f9f9f9;
+
+}
+.winthropDesc h3 a{
+color: #000000 !important;
+
+}
+.winthropContent {
+  padding: 180px 100px 100px 100px;
+  
+}
+.winthropContent h3 {
+  font-size: 32px;
+}
+.winthropContent .insideH3 a:hover{
+  color: #ff724c!important;
+}
+.winthropContent .insideH3 a:after{
+  content: '';
+  width:100%;
+  height: 1px;
+  position: absolute;
+  background-color:#ff724c;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.6s;
+
+}
+.winthropContent .insideH3 a:hover::after{
+  transform-origin: left;
+  transform: scalex(1);
+
+}
+.winthropImage img{
+  scale: 1.0;
+  object-fit: cover;
+  transition: scale 0.8s ease-out;
+
+
+}
+.winthropAll:hover img{
+  scale: 1.2;
+  cursor: pointer;
+}
+.winthropImage{
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  overflow: hidden;
+
 }
 
 .News .news-block .insights{
@@ -923,6 +984,69 @@ h5:before {
     border-right:1px #adadad solid;
 }
 
+/* officeWork section */
+
+
+
+.officeWork .projectPic img{
+  width: 100%;
+  transition: .9s;
+  
+}
+.officeWork .projectPic:hover img{
+  transform:scale(1.2);
+  cursor: pointer;
+
+}
+.officeWork .projectPic{
+
+  overflow: hidden;
+
+}
+
+.picContent{
+  padding-top: 20px;
+
+}
+
+.prevProjects .picContent a{
+  color: #adadad;
+  transition: .2s;
+  font-size: 14px;
+
+}
+.prevProjects .picContent a:hover{
+  color: #ff724c;
+}
+.prevProjects .picDesc .newDesc a{
+  color: #000;
+  font-size: 24px;
+  
+}
+.prevProjects .picDesc .newDesc a:hover{
+  color: #ff724c;
+
+}
+
+.prevProjects .picDesc .newDesc a:after{
+  content: '';
+    width:100%;
+    height: 1px;
+    position: absolute;
+    background-color:#ff724c;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.6s;
+}
+.prevProjects .picDesc .newDesc a:hover::after{
+  transform-origin: left;
+  transform: scalex(1);
+}
+
+
+
 
 /* ready section */
 
@@ -953,7 +1077,7 @@ h5:before {
 .ready .ready-components .work:before {
     content: "work";
     animation-name: replacement;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -963,6 +1087,7 @@ h5:before {
     0% {
         opacity: 0;
     }
+
 
     100% {
         opacity: 1;
