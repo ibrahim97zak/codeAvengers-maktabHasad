@@ -1,895 +1,1039 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAKTAB-HASAD-WEBSITE</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MAKTAB-HASAD-WEBSITE</title>
+    <!--fontawsom-->
+    <link rel="stylesheet" href="vendor/css/all.min.css" />
+    <!--bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    />
+    <!--css-->
 
-  <!--fontawsom-->
-  <link rel="stylesheet" href="vendor/css/all.min.css" />
-  <!--bootstrap-->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
-  <!--css-->
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/media.css" />
+  </head>
 
-  <link rel="stylesheet" href="assets/style.css" />
-  <link rel="stylesheet" href="assets/media.css" />
-</head>
+  <body>
+    <!--start-ahmad-section-->
+    <!--start navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container position-relative d-flex">
+        <a class="navbar-brand" href="#">
+          <img src="assets/imges/LOGOFINAL-trans.png" alt="logo" />
+          <span class="logo-name">MAKTAB HASAD</span>
+        </a>
 
-<body>
-  <!--start-ahmad-section-->
-  <!--start navbar-->
-  <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-    <div class="container position-relative d-flex">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/imges/LOGOFINAL-trans.png" alt="logo" />
-        <span class="logo-name">MAKTAB HASAD</span>
-      </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="nav-list collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto gap-4 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item gap-2 ">
-            <a class="nav-link link-drop">ABOUT US</a><div class="nextsib d-flex flex-column gap-2 d-none ">
-                <a class="text-capitalize fs-6 text-black" href=""> who we are</a>
-                <a class="text-capitalize fs-6 text-black" href="">leadership</a>
-              </div>
-            <div class="drop container position-absolute bg-white d-none" id="drop1">
-              <div class="row">
-                <div class="sec-down  col-lg-5 offs d-flex flex-column gap-4">
-                  <a href="#" class="menu-link">
-                    <h3 class=" anc-tit d-flex flex-column ">who we are</h3> <span>From small renovations to complex
-                      billion
-                      dollar projects.</span>
-                  </a>
-                  <a href="#" class="menu-link">
-                    <h3 class=" anc-tit d-flex flex-column">Leadership</h3> <span>Meet our leadership team who guides
-                      strategic
-                      operations across our company.</span>
-                  </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="nav-list collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav m-auto gap-4 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-drop" id="link1" href="#">ABOUT US</a>
+              <div
+                class="drop container position-absolute bg-white d-none"
+                id="drop1"
+              >
+                <div class="row">
+                  <div class="sec-down col-lg-6 d-flex flex-column">
+                    <a href=""
+                      ><h3 class="p-5 d-flex flex-column">
+                        who we are
+                        <span
+                          >From small renovations to complex billion dollar
+                          projects.</span
+                        >
+                      </h3></a
+                    >
+                    <a href=""
+                      ><h3 class="p-5 d-flex flex-column">
+                        Leadership
+                        <span
+                          >Meet our leadership team who guides strategic
+                          operations across our company.</span
+                        >
+                      </h3></a
+                    >
+                  </div>
+                  <div class="pic-down col-lg-6">
+                    <img src="assets/imges/who-we-are.jfif" alt="" />
+                  </div>
                 </div>
-                <div class="pic-down col-lg-6 ">
-                  <img src="assets/imges/who-we-are.jfif" alt="">
-                </div>
               </div>
-            </div>
-
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-drop">SERVICES</a><div class="nextsib d-flex flex-column gap-2 d-none ">
-                <a class="text-capitalize fs-6 text-black" href="construction.html"> construction</a>
-                <a class="text-capitalize fs-6 text-black" href="design.html">design</a>
-                <a class="text-capitalize fs-6 text-black" href="preconst.html">pre construction services</a>
-              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-drop" href="#">SERVICES</a>
               <div class="drop position-absolute bg-white d-none" id="drop2">
-                <div class="row ">
-                    <div class="sec-down col-lg-6 d-flex flex-column">
-                        <a href="construction.html" class="menu-link">
-                            <h3 class="px-4 pb-4 d-flex flex-column">construction <span class="ms-2">From
-                                    preconstruction to
-                                    virtual design and construction, we offer a wide range of services to
-                                    meet your building
-                                    needs.</span></h3>
-                        </a>
-                        <a href="design.html"class="menu-link">
-                            <h3 class="px-4 pb-4 d-flex flex-column">design <span class="ms-2">Certainty of
-                                    outcome. It’s why
-                                    our clients choose us for their most challenging Design/Build
-                                    projects.</span></h3>
-                        </a>
-                        <a href="preconst.html"class="menu-link">
-                            <h3 class="px-4 d-flex flex-column">pre construction services <span
-                                    class="ms-2">From engineering to
-                                    preconstruction, we offer a variety of services and delivery
-                                    methods.</span></h3>
-                        </a>
-                    </div>
-                    <div class="pic-down col-lg-6 ">
-                        <img src="assets/imges/work.png" alt="">
-                    </div>
-                </div>
-            </div>
-          </li>
-          <li class="nav-item d-flex flex-column gap-2">
-            <a class="nav-link link-drop">WORK</a><div class="nextsib gap-2 d-none">
-                <a class="text-capitalize fs-6 text-black" href=""> projects</a>
-              </div>
-            
-
-            <div class="drop position-absolute bg-white d-none" id="drop3">
-                            <div class="row ">
-                                <div class="sec-down col-lg-6 d-flex flex-column justify-content-around">
-                                    <a href=""class="menu-link">
-                                        <h3 class="p-5 d-flex flex-column">projects <span class="ms-2">Explore some of
-                                                our projects and see
-                                                how we’re transforming the built world.</span></h3>
-                                    </a>
-
-                                </div>
-                                <div class="pic-down col-lg-6 ">
-                                    <img src="assets/imges/services.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">NEWS</a>
-          </li>
-        </ul>
-
-      </div>
-      <div class="search-bar d-flex position-relative">
-        <div class="get d-flex">
-          <a class="position-relative" href="#">
-            <div class="" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-              aria-controls="offcanvasRight"> GET IN
-              TOUCH</div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </nav>
-
-  <!--end navbar-->
-  <!--off canves-->
-
-
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-    <div class="offcanvas-header">
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div class="container ">
-        <div class="d-flex flex-column justify-content-center align-items-center px-2">
-          <div class="cnva-img">
-            <img src="assets/imges/ibrahim-section/contactus.jpg" class="w-100" alt="">
-          </div>
-          <h3 class="canva-title pt-2">MAKTAB-HASAD</h3>
-          <span>AL-BarkehMall</span>
-          <span>3rd floor</span>
-          <span>jenin-palestine Str</span>
-          <span>office@Hasad.com</span>
-          <span>+970-599358656</span>
-          <h3 class="py-3 fs-2 border-top">Got a project in mind?</h3>
-          <a href="contactus.html" class="elementor-btn py-2 m-0">
-            <p class="m-0">CONTACT US</p>
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <!--start header-->
-
-
-  <div class="header" id="header">
-    <div class="container d-flex justify-content-between vh-100 pb-5">
-      <div class="header-content d-flex w-75 col-lg-6">
-        <div class="header-items d-flex flex-column">
-          <div class="row d-flex">
-            <span>Build. Invest</span>
-          </div>
-          <span class="txt-rotate" data-period="2000" data-rotate='[ "Inovate.", "Succeed." ]'>
-            
-          </span>
-          <div class="button">
-            <a href="#" class="btn py-2 px-4 position-relative">LEARN MORE</a>
-          </div>
-        </div>
-      </div>
-      <div class="together w-25 col-lg-6 d-flex position-relative">
-        <div>
-          <div class="box position-absolute">
-            <h3 class="m-5 mb-1 w-50">Let’s work together</h3>
-            <a class="contact m-5 mt-0" href="contactus.html">contact us</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row mt-5 mb-5 d-flex justify-content-between">
-      <div class="row-item col-lg-3">
-        <span>Who We Are </span>
-        <p>
-          As a national leader in our industry, hasad is revolutionizing what
-          you expect from a contractor.
-        </p>
-      </div>
-      <div class="row-item col-lg-3">
-        <span>Our Mission </span>
-        <p>
-          To integrate the entire building lifecycle into a seamless platform
-          to redefine how the world builds.
-        </p>
-      </div>
-      <div class="row-item col-lg-3">
-        <span>Core Values </span>
-        <p>Passion. Integrity. Hard work. Professionalism. Caring.</p>
-      </div>
-    </div>
-  </div>
-  <!--end-ahmad-section-->
-
-  <!--start-mahmoud-section-->
-
-  <!-- Our Project -->
-  <!-- **************************************************** -->
-
-  <section class="ourProjects pt-5 mt-5 mb-5">
-    <div class="container">
-      <div class="container w-75">
-        <div class="projectheader"><span>Projects</span></div>
-        <div class="projectcontent pb-5 w-75">
-          Delivering our clients more project clarity, greater insight, and
-          less chaos.
-        </div>
-        <a class="text-decoration-none" href="#"><span class="headerprojectlink"></span></a>
-      </div>
-
-      <div>
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="df">
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/1.jpg" alt="..." />
+                <div class="row">
+                  <div class="sec-down col-lg-6 d-flex flex-column">
+                    <a href=""
+                      ><h3 class="px-4 pb-4 d-flex flex-column">
+                        construction
+                        <span class="ms-2"
+                          >From preconstruction to virtual design and
+                          construction, we offer a wide range of services to
+                          meet your building needs.</span
+                        >
+                      </h3></a
+                    >
+                    <a href=""
+                      ><h3 class="px-4 pb-4 d-flex flex-column">
+                        design
+                        <span class="ms-2"
+                          >Certainty of outcome. It’s why our clients choose us
+                          for their most challenging Design/Build
+                          projects.</span
+                        >
+                      </h3></a
+                    >
+                    <a href=""
+                      ><h3 class="px-4 d-flex flex-column">
+                        pre construction services
+                        <span class="ms-2"
+                          >From engineering to preconstruction, we offer a
+                          variety of services and delivery methods.</span
+                        >
+                      </h3></a
+                    >
                   </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4>
-                      <a href="#" class="text-decoration-none">residance</a>
-                    </h4>
-                  </div>
-                </div>
-
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/2.jpg" alt="..." />
-                  </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4><a href="#" class="text-decoration-none">cottage</a></h4>
-                  </div>
-                </div>
-
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/3.jpg" alt="..." />
-                  </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4>
-                      <a href="#" class="text-decoration-none">residance</a>
-                    </h4>
+                  <div class="pic-down col-lg-6">
+                    <img src="assets/imges/work.png" alt="" />
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="df">
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/10.png" alt="..." />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-drop" href="#">WORK</a>
+              <div class="drop position-absolute bg-white d-none" id="drop3">
+                <div class="row">
+                  <div
+                    class="sec-down col-lg-6 d-flex flex-column justify-content-around"
+                  >
+                    <a href=""
+                      ><h3 class="p-5 d-flex flex-column">
+                        projects
+                        <span class="ms-2"
+                          >Explore some of our projects and see how we’re
+                          transforming the built world.</span
+                        >
+                      </h3></a
+                    >
                   </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4>
-                      <a href="#" class="text-decoration-none">house</a>
-                    </h4>
-                  </div>
-                </div>
-
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/5.jpg" alt="..." />
-                  </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4><a href="#" class="text-decoration-none">multi using hall</a></h4>
-                  </div>
-                </div>
-
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/6.jpg" alt="..." />
-                  </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4>
-                      <a href="#" class="text-decoration-none">Vella</a>
-                    </h4>
+                  <div class="pic-down col-lg-6">
+                    <img src="assets/imges/services.png" alt="" />
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <div class="df">
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/7.jpg" alt="..." />
-                  </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4>
-                      <a href="#" class="text-decoration-none">cottage</a>
-                    </h4>
-                  </div>
-                </div>
-
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/8.png" alt="..." />
-                  </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4><a href="#" class="text-decoration-none">farm house cottage</a></h4>
-                  </div>
-                </div>
-
-                <div class="parent-image">
-                  <div class="imgParent">
-                    <img src="assets/imges/mahmoud/projects/9.jpg" alt="..." />
-                  </div>
-                  <div class="">
-                    <div class="projectLink">
-                      <a href="#" class="text-decoration-none">Projects</a>
-                    </div>
-                    <h4>
-                      <a href="#" class="text-decoration-none">mountain cottage</a>
-                    </h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="fa-solid fa-arrow-left arrowLeft" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="fa-solid fa-arrow-right arrowRight" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NEWS</a>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- **************************************************** -->
-  <!-- Our Sector -->
-  <div class="Proj mb-5">
-    <div class="container">
-      <div class="row gap-0">
-        <h2>Our Sectors</h2>
-        <div class="col-lg-4">
-          <div class="pt-4">
-            <div class="icon d-flex">
-              <img class="img" src="assets/imges/mahmoud/building_1.png" alt="Building 1" />
-            </div>
-            <br />
-            <div class="container">
-              <span style="font-size: 24px; font-family: 'Titillium Web'">Buildings</span>
-
-              <p>
-                We offers substantial construction experience, competitive
-                pricing, financial strength, integrity and a commitment to
-                your project that is supported by a foundation of quality and
-                workplace safety.
-              </p>
-              <div class="links d-flex justify-content-start">
-                <div class="sectorLink">
-                  <a class="text-decoration-none d-block" href="#">Residential</a>
-                </div>
-                <div class="sectorLink">
-                  <a class="text-decoration-none d-block" href="#">Houses</a>
-                </div>
-                <div class="sectorLink">
-                  <a class="text-decoration-none d-block" href="#">Business</a>
-                </div>
-              </div>
-            </div>
+        <div class="search-bar d-flex position-relative">
+          <div class="search-icon">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
           </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="pt-4">
-            <div class="icon d-flex">
-              <img class="img" src="assets/imges/mahmoud/bridge.png" alt="Building 1" />
-            </div>
-            <br />
-            <div class="container">
-              <span style="font-size: 24px; font-family: 'Titillium Web'">Civil Infrastructure</span>
-              <p>
-                The geographical diversity, project complexity and public
-                nature of civil work results in an exceptionally challenging
-                industry that demands a high level of technical construction
-                expertise.
-              </p>
-              <div class="links d-flex justify-content-start flex-wrap">
-                <div class="sectorLink">
-                  <a class="text-decoration-none" href="#">Hospitality</a>
-                </div>
-                <div class="sectorLink">
-                  <a class="text-decoration-none" href="#">Public Buildings</a>
-                </div>
-                <div class="sectorLink">
-                  <a class="text-decoration-none" href="#">Museum</a>
-                </div>
-                <div class="sectorLink">
-                  <a class="text-decoration-none" href="#">Hospitals</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4">
-          <div class="pt-4">
-            <div class="icon d-flex">
-              <img class="img" src="assets/imges/mahmoud/heavy.png" alt="Building 1" />
-            </div>
-            <br />
-            <div class="container">
-              <span style="font-size: 24px; font-family: 'Titillium Web'">Heavy Industrial</span>
-              <p>
-                Konstruktion’s industrial construction companies respond to
-                the unique needs of clients in the petrochemical, oil and gas,
-                pulp and paper, mining, and power and renewable industries.
-              </p>
-              <div class="links d-flex justify-content-start">
-                <div class="sectorLink">
-                  <a class="text-decoration-none" href="#">Factory</a>
-                </div>
-                <div class="sectorLink">
-                  <a class="text-decoration-none" href="#">Refinery</a>
-                </div>
-              </div>
-            </div>
+          <div class="get d-flex">
+            <a class="position-relative" href="#"> GET IN TOUCH</a>
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </nav>
 
-  <!--end-mahmoud-section-->
+    <!--end navbar-->
+    <!--off canves-->
 
-  <!--start-ibrahim-section-->
-  <!--sustainability section-->
-  <section class="Sustainability" id="#Sustainability">
-    <div class="container">
-      <div class="row d-flex gap-0">
-        <div class="photo-disc col-lg-6 position-relative">
-          <img src="assets/imges/ibrahim-section/ezgif-4-4f08d16f24.jpg " class="pic-pos2" />
-          <img src="assets/imges/ibrahim-section/ezgif-4-a6879efab9.jpg " class="pic-pos1" />
-        </div>
-        <div class="tilte-sec col-lg-5 offset-lg-1 position-relative">
-          <span class="title text-capitalize pb-3">Our way</span>
-          <h2 class="mt-2">Sustainability</h2>
-          <p class="mt-4 mb-4 pb-4">
-            Our Sustainable Construction Advisors (SCAs) provide sustainable
-            construction expertise to our buildings, civil and industrial
-            project teams. The SCAs work collaboratively with clients to
-            develop cost-effective strategies to reduce the overall
-            environmental impact of their projects.
-          </p>
-          <a class="butn text-uppercase" href="#"><span class="sp-tex">learn more</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="services">
-    <div class="row">
-      <div class="services-sec position-relative col-lg-6 col-md-12">
-        <span class="title text-capitalize text-white bg-black">Services</span>
-        <h2 class="mt-2 text-white">
-          Providing exceptional construction services and insight from the
-          start.
-        </h2>
-      </div>
-      <div class="services-field col-lg-6 col-md-12">
-        <div class="field d-flex">
-          <h6 class="text-white pt-2">01</h6>
-          <a href="" class="d-flex">
-            <span class="text-capitalize">Construction </span>
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </a>
-        </div>
-        <div class="field d-flex mt-4">
-          <h6 class="text-white pt-2">02</h6>
-          <a href="" class="d-flex">
-            <span class="text-capitalize">pre-Construction </span>
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </a>
-        </div>
-        <div class="field d-flex mt-4">
-          <h6 class="text-white pt-2">03</h6>
-          <a href="" class="d-flex">
-            <span class="text-capitalize">design-bulid</span>
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </a>
-        </div>
-        <div class="field d-flex mt-4">
-          <h6 class="text-white pt-2">04</h6>
-          <a href="" class="d-flex">
-            <span class="text-capitalize"> Lump-Sum Contracting </span>
-            <i class="fa-solid fa-arrow-right-long"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="building">
-    <div class="container">
-      <div class="row gap-0">
-        <div class="tilte-building col-lg-6 col-md-12 p-4 position-relative">
-          <h2 class="mt-2">Building for the best.</h2>
-          <p class="mt-5 mb-4 pb-4">
-            To explore and go after new ways to build, we’ve gathered the
-            people, innovations, and partnerships that can anticipate and
-            overcome new challenges.
-          </p>
-          <span>Innovation</span>
-          <span>A strong foundation</span>
-        </div>
+    <!--start header-->
 
-        <div class="numbers col-lg-4 offset-lg-2 p-4 position-relative">
-          <div class="stats">
-            <div class="row d-flex mt-5 position-relative">
-              <h2 class="num" data-val="100">0</h2>
-            </div>
-            <p>Employee Owned</p>
-          </div>
-          <div class="stats">
+    <div class="header" id="header">
+      <div class="container d-flex justify-content-between vh-100 pb-5">
+        <div class="header-content d-flex w-75 col-lg-6">
+          <div class="header-items d-flex flex-column">
             <div class="row d-flex">
-              <h2 class="num" data-val="50">0</h2>
+              <span>Build. Invest</span>
             </div>
-            <p>Project in various industries</p>
+            <span
+              class="txt-rotate"
+              data-period="2000"
+              data-rotate='[ "Inovate.", "Succeed." ]'
+            >
+            </span>
+            <div class="button">
+              <a href="#" class="btn py-2 px-4 position-relative">LEARN MORE</a>
+            </div>
           </div>
-          <div class="stats">
-            <div class="row d-flex">
-              <h2 class="num" data-val="20">0</h2>
+        </div>
+        <div class="together w-25 col-lg-6 d-flex position-relative">
+          <div>
+            <div class="box position-absolute">
+              <h3 class="m-5 mb-1 w-50">Let’s work together</h3>
+              <a class="contact m-5 mt-0" href="contactus.html">contact us</a>
             </div>
-            <p>With nearly 20 years in business</p>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!--end-ibrahim-section-->
-
-  <!--start-mohannad-section-->
-  <!-- safety sec. -->
-
-  <section class="Safety">
     <div class="container">
-      <div class="row gap-0">
-        <div class="col-md-6">
-          <div class="parent">
-            <img class="imgBack" src="assets/imges/Muhannad/GettyImages-523287356.webp" />
-            <img class="imgBtmRight" src="assets/imges/Muhannad/GettyImages-1334043783.webp" />
-          </div>
-        </div>
-        <div class="col-md-6 text-content">
-          <h5 class="title-section">Safety</h5>
-          <h2>We watch out for each other.</h2>
+      <div class="row mt-5 mb-5 d-flex justify-content-between">
+        <div class="row-item col-lg-3">
+          <span>Who We Are </span>
           <p>
-            We want every employee and trade partner to feel that they are
-            part of a common good and cohesive team. We help our teams form
-            stronger relationships with trade partners by emphasizing people
-            and teamwork over processes and checklists.
+            As a national leader in our industry, hasad is revolutionizing what
+            you expect from a contractor.
           </p>
-          <div class="anchor">
-            <a href="#" class="anchor-learnMore">LEARN MORE</a>
-            <a href="#" class="anchor-Careers">CAREERS AT KONSTRUKTION</a>
-          </div>
+        </div>
+        <div class="row-item col-lg-3">
+          <span>Our Mission </span>
+          <p>
+            To integrate the entire building lifecycle into a seamless platform
+            to redefine how the world builds.
+          </p>
+        </div>
+        <div class="row-item col-lg-3">
+          <span>Core Values </span>
+          <p>Passion. Integrity. Hard work. Professionalism. Caring.</p>
         </div>
       </div>
     </div>
-  </section>
+    <!--end-ahmad-section-->
 
-  <section class="possible">
-    <div class="cropped">
-      <img src="assets/imges/Muhannad/GettyImages-1266939032.webp" alt="" class="w-100" />
-      <p>We redefine what’s possible</p>
-    </div>
-  </section>
+    <!--start-mahmoud-section-->
 
-  <!--  leadership section -->
+    <!-- Our Project -->
+    <!-- **************************************************** -->
 
-  <section class="leadership">
-    <div class="container">
-      <div class="row gap-0 leadership-components">
-        <div class="col-md-4 col-sm-12">
-          <h2>Meet our leadership</h2>
-          <br />
-          <a href="#" class="elementor-btn">
-            <p>LEARN MORE</p>
-          </a>
+    <section class="ourProjects pt-5 mt-5 mb-5">
+      <div class="container">
+        <div class="container w-75">
+          <div class="projectheader"><span>Projects</span></div>
+          <div class="projectcontent pb-5 w-75">
+            Delivering our clients more project clarity, greater insight, and
+            less chaos.
+          </div>
+          <a class="text-decoration-none" href="#"
+            ><span class="headerprojectlink"></span
+          ></a>
         </div>
 
-        <div id="carouselExampleControls" class="carousel slide col-md-8 py-3" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active leadership-image">
-              <div class="row gap-0">
-                <div class="col-md-6">
-                  <div class="img-over">
-                    <img src="assets/imges/team/mahmod-headteam.jpeg" class="d-block w-100" alt="..." />
+        <div>
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="df">
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/1.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none">residance</a>
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/2.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none">cottage</a>
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/3.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none">residance</a>
+                      </h4>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="carousel-item">
+                <div class="df">
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/10.png"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none">house</a>
+                      </h4>
+                    </div>
+                  </div>
 
-                <div class="col-md-6">
-                  <div>
-                    <div class="post-text">
-                      <h3><a href="#">Mahmoud zakarneh</a></h3>
-                      <br />
-                      <p>
-                        <b>architect and previous president of the engineers syndicate of jenin</b>
-                        <br />
-                        <br />
-                        “We favorably impact people, families and communities
-                        with our work, our projects and our charitable
-                        efforts. It’s an exciting place to be every day and
-                        our opportunities to contribute will grow as we
-                        continue to grow in Palestine.”
-                      </p>
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/5.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none"
+                          >multi using hall</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/6.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none">Vella</a>
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="df">
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/7.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none">cottage</a>
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/8.png"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none"
+                          >farm house cottage</a
+                        >
+                      </h4>
+                    </div>
+                  </div>
+
+                  <div class="parent-image">
+                    <div class="imgParent">
+                      <img
+                        src="assets/imges/mahmoud/projects/9.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="">
+                      <div class="projectLink">
+                        <a href="#" class="text-decoration-none">Projects</a>
+                      </div>
+                      <h4>
+                        <a href="#" class="text-decoration-none"
+                          >mountain cottage</a
+                        >
+                      </h4>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="carousel-item leadership-image">
-              <div class="row gap-0">
-                <div class="col-md-6">
-                  <div class="img-over">
-                    <img src="assets/imges/team/ibrahim.jpeg" class="d-block w-100" alt="..." />
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div>
-                    <div class="post-text">
-                      <h3><a href="#">ibrahim zakarneh</a></h3>
-                      <br />
-                      <p>
-                        <b>Sub specialist civil engineer</b>
-                        <br />
-                        <br />
-                        “Strive for perfection in everything you do. Take the best that exists and make it better. When
-                        it does not exist, design it”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="carousel-item leadership-image">
-              <div class="row gap-0">
-                <div class="col-md-6">
-                  <div class="img-over h-100">
-                    <img src="assets/imges/team/omar-daher.jpeg" class="d-block w-100" alt="..." />
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div>
-                    <div class="post-text">
-                      <h3><a href="#">Omar althaher</a></h3>
-                      <br />
-                      <p>
-                        <b>civil engineer specialist</b>
-                        <br />
-                        <br />
-                        “Wade believes the company’s shareholder program is a
-                        “gamechanger” in the construction industry.
-                        Konstruktion is 100% employee-owned, which means
-                        employees have the opportunity to invest in their own
-                        hard work.”
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="fa-solid fa-arrow-left arrowLeft"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="fa-solid fa-arrow-right arrowRight"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button class="test carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="fa-solid fa-arrow-left arrowLeft" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="fa-solid fa-arrow-right arrowRight" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!--news section -->
-
-  <section class="News">
-    <div class="news-block">
+    </section>
+    <!-- **************************************************** -->
+    <!-- Our Sector -->
+    <div class="Proj mb-5">
       <div class="container">
         <div class="row gap-0">
-          <div class="col-md-4">
-            <div class="w-md-50">
-              <h5>News</h5>
-              <h2>Insights</h2>
-              <p>Our people are dedicated to finding solutions to
-                every challenge. That spirit makes for some
-                great stories.
-              </p>
+          <h2>Our Sectors</h2>
+          <div class="col-lg-4">
+            <div class="pt-4">
+              <div class="icon d-flex">
+                <img
+                  class="img"
+                  src="assets/imges/mahmoud/building_1.png"
+                  alt="Building 1"
+                />
+              </div>
+              <br />
+              <div class="container">
+                <span style="font-size: 24px; font-family: 'Titillium Web'"
+                  >Buildings</span
+                >
+
+                <p>
+                  We offers substantial construction experience, competitive
+                  pricing, financial strength, integrity and a commitment to
+                  your project that is supported by a foundation of quality and
+                  workplace safety.
+                </p>
+                <div class="links d-flex justify-content-start">
+                  <div class="sectorLink">
+                    <a class="text-decoration-none d-block" href="#"
+                      >Residential</a
+                    >
+                  </div>
+                  <div class="sectorLink">
+                    <a class="text-decoration-none d-block" href="#">Houses</a>
+                  </div>
+                  <div class="sectorLink">
+                    <a class="text-decoration-none d-block" href="#"
+                      >Business</a
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="col-md-8 insights">
-            <div class="row gap-0">
-              <div class="col-md-6">
-                <div class="new-image">
-                  <div class="img-over">
-                    <img src="assets/imges/Muhannad/pexels-pixabay-290275.webp" class="w-100" alt="">
+          <div class="col-lg-4">
+            <div class="pt-4">
+              <div class="icon d-flex">
+                <img
+                  class="img"
+                  src="assets/imges/mahmoud/bridge.png"
+                  alt="Building 1"
+                />
+              </div>
+              <br />
+              <div class="container">
+                <span style="font-size: 24px; font-family: 'Titillium Web'"
+                  >Civil Infrastructure</span
+                >
+                <p>
+                  The geographical diversity, project complexity and public
+                  nature of civil work results in an exceptionally challenging
+                  industry that demands a high level of technical construction
+                  expertise.
+                </p>
+                <div class="links d-flex justify-content-start flex-wrap">
+                  <div class="sectorLink">
+                    <a class="text-decoration-none" href="#">Hospitality</a>
                   </div>
-
-                  <br>
-                  <a href="#">Innovation</a>
-                  <h4>
-                    <a href="#">
-                      Winthrop Center Will Be One of <br> the World’s
-                      Largest Passive House Buildings
-                    </a>
-                  </h4>
+                  <div class="sectorLink">
+                    <a class="text-decoration-none" href="#"
+                      >Public Buildings</a
+                    >
+                  </div>
+                  <div class="sectorLink">
+                    <a class="text-decoration-none" href="#">Museum</a>
+                  </div>
+                  <div class="sectorLink">
+                    <a class="text-decoration-none" href="#">Hospitals</a>
+                  </div>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div class="col-md-6">
-                <div class="new-image ms-md-4 pb-4">
-                  <div class="img-over">
-                    <img src="assets/imges/Muhannad/GettyImages-1198057584.webp" class="w-100" alt="">
+          <div class="col-lg-4">
+            <div class="pt-4">
+              <div class="icon d-flex">
+                <img
+                  class="img"
+                  src="assets/imges/mahmoud/heavy.png"
+                  alt="Building 1"
+                />
+              </div>
+              <br />
+              <div class="container">
+                <span style="font-size: 24px; font-family: 'Titillium Web'"
+                  >Heavy Industrial</span
+                >
+                <p>
+                  Konstruktion’s industrial construction companies respond to
+                  the unique needs of clients in the petrochemical, oil and gas,
+                  pulp and paper, mining, and power and renewable industries.
+                </p>
+                <div class="links d-flex justify-content-start">
+                  <div class="sectorLink">
+                    <a class="text-decoration-none" href="#">Factory</a>
                   </div>
-                  <br>
-                  <a href="#">Report</a>
-
-                  <h4>
-                    <a href="#">Our aproach to to Sustainability
-                    </a>
-                  </h4>
+                  <div class="sectorLink">
+                    <a class="text-decoration-none" href="#">Refinery</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
-  </section>
 
-  <!-- client sec -->
+    <!--end-mahmoud-section-->
 
-  <section class="clients">
-    <div class="container">
-      <div class="client-image">
-        <h3>Our clients</h3>
-        <img src="assets/imges/Muhannad/lafeminite.svg" class="item" alt="" />
-        <img src="assets/imges/Muhannad/salute.svg" class="item" alt="" />
-        <img src="assets/imges/Muhannad/debebe.svg" class="item" alt="" />
-        <img src="assets/imges/Muhannad/skole.svg" class="item" alt="" />
-        <img src="assets/imges/Muhannad/jolie.svg" class="item" alt="" />
-      </div>
-    </div>
-  </section>
-
-  <!-- ready sec -->
-
-  <section class="ready py-5">
-    <div class="row">
-      <div class="col-12">
-        <div class="img-over">
-          <div class="ready-components">
-            <img class="w-100" src="assets/imges/Muhannad/GettyImages-1313854425.webp" alt="" />
-            <p>
-              Ready to <br />
-              <span class="work"></span> together?
+    <!--start-ibrahim-section-->
+    <!--sustainability section-->
+    <section class="Sustainability" id="#Sustainability">
+      <div class="container">
+        <div class="row d-flex gap-0">
+          <div class="photo-disc col-lg-6 position-relative">
+            <img
+              src="assets/imges/ibrahim-section/ezgif-4-4f08d16f24.jpg "
+              class="pic-pos2"
+            />
+            <img
+              src="assets/imges/ibrahim-section/ezgif-4-a6879efab9.jpg "
+              class="pic-pos1"
+            />
+          </div>
+          <div class="tilte-sec col-lg-5 offset-lg-1 position-relative">
+            <span class="title text-capitalize pb-3">Our way</span>
+            <h2 class="mt-2">Sustainability</h2>
+            <p class="mt-4 mb-4 pb-4">
+              Our Sustainable Construction Advisors (SCAs) provide sustainable
+              construction expertise to our buildings, civil and industrial
+              project teams. The SCAs work collaboratively with clients to
+              develop cost-effective strategies to reduce the overall
+              environmental impact of their projects.
             </p>
-            <div class="twoAnchor">
-              <a href="contactus.html">BUILD A PROJECT WITH US</a>
-              
+            <a class="butn text-uppercase" href="#"
+              ><span class="sp-tex">learn more</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="row">
+        <div class="services-sec position-relative col-lg-6 col-md-12">
+          <span class="title text-capitalize text-white bg-black"
+            >Services</span
+          >
+          <h2 class="mt-2 text-white">
+            Providing exceptional construction services and insight from the
+            start.
+          </h2>
+        </div>
+        <div class="services-field col-lg-6 col-md-12">
+          <div class="field d-flex">
+            <h6 class="text-white pt-2">01</h6>
+            <a href="" class="d-flex">
+              <span class="text-capitalize">Construction </span>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="field d-flex mt-4">
+            <h6 class="text-white pt-2">02</h6>
+            <a href="" class="d-flex">
+              <span class="text-capitalize">pre-Construction </span>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="field d-flex mt-4">
+            <h6 class="text-white pt-2">03</h6>
+            <a href="" class="d-flex">
+              <span class="text-capitalize">design-bulid</span>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+          <div class="field d-flex mt-4">
+            <h6 class="text-white pt-2">04</h6>
+            <a href="" class="d-flex">
+              <span class="text-capitalize"> Lump-Sum Contracting </span>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="building">
+      <div class="container">
+        <div class="row gap-0">
+          <div class="tilte-building col-lg-6 col-md-12 p-4 position-relative">
+            <h2 class="mt-2">Building for the best.</h2>
+            <p class="mt-5 mb-4 pb-4">
+              To explore and go after new ways to build, we’ve gathered the
+              people, innovations, and partnerships that can anticipate and
+              overcome new challenges.
+            </p>
+            <span>Innovation</span>
+            <span>A strong foundation</span>
+          </div>
+
+          <div class="numbers col-lg-4 offset-lg-2 p-4 position-relative">
+            <div class="stats">
+              <div class="row d-flex mt-5 position-relative">
+                <h2 class="num" data-val="100">0</h2>
+              </div>
+              <p>Employee Owned</p>
+            </div>
+            <div class="stats">
+              <div class="row d-flex">
+                <h2 class="num" data-val="50">0</h2>
+              </div>
+              <p>Project in various industries</p>
+            </div>
+            <div class="stats">
+              <div class="row d-flex">
+                <h2 class="num" data-val="20">0</h2>
+              </div>
+              <p>With nearly 20 years in business</p>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--end-mohannad-section-->
-  <!--start footer-->
+    <!--end-ibrahim-section-->
 
-  <section class="footer mt-5">
-    <div class="container">
-      <div class="row1 row gap-0 d-flex justify-content-between">
-        <div class="info col-lg-3">
-          <a class="navbar-brand" href="#">
-            <img src="assets/imges/LOGOFINAL-trans.png" alt="logo" />
-          </a>
-          <span class="logo-name">MAKTAB HASAD</span>
-        </div>
+    <!--start-mohannad-section-->
+    <!-- safety sec. -->
 
-        <div class="info col-lg-3">
-          <span> Palestine/jenin </span>
-          <p>al-barkeh mall-3rd floor -palestine str- jenin</p>
-          <a href="#">+970-599358656</a>
-          <a href="#"><br />office@Hasad.com</a>
-        </div>
-      </div>
-      <div class="row2 row  gap-0 mt-5 d-flex justify-content-between">
-        <div class="projects position-relative col-lg-4">
-          <a class="position-relative" href="#">Projects</a>
-        </div>
-        <div class="projects position-relative col-lg-4">
-          <a class="position-relative" href="#">Leadership</a>
-        </div>
-      </div>
-      <div class="row3 row  gap-0 my-5 d-flex">
-        <div class="col-lg-3">
-          <div class="socials d-flex">
-            <a class="position-relative" href="#">&copy;2023</a>
+    <section class="Safety">
+      <div class="container">
+        <div class="row gap-0">
+          <div class="col-md-6">
+            <div class="parent">
+              <img
+                class="imgBack"
+                src="assets/imges/Muhannad/GettyImages-523287356.webp"
+              />
+              <img
+                class="imgBtmRight"
+                src="assets/imges/Muhannad/GettyImages-1334043783.webp"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3">
-          <div class="socials d-flex gap-4 justify-content-between">
-            <a class="position-relative" href="https://www.facebook.com/MAKTABHASAD">Facebook</a>
-            <a class="position-relative" href="#">Linkedink</a>
-            <a class="position-relative" href="https://www.instagram.com/maktabhasad/">Instagram</a>
-          </div>
-        </div>
-        <div class="col-lg-3 position-relative">
-          <div class="socials d-flex justify-content-between">
-            <a class="position-relative" href="#">Terms and Conditions</a>
-            <a class="position-relative" href="#">Privacy Policy</a>
+          <div class="col-md-6 text-content">
+            <h5 class="title-section">Safety</h5>
+            <h2>We watch out for each other.</h2>
+            <p>
+              We want every employee and trade partner to feel that they are
+              part of a common good and cohesive team. We help our teams form
+              stronger relationships with trade partners by emphasizing people
+              and teamwork over processes and checklists.
+            </p>
+            <div class="anchor">
+              <a href="#" class="anchor-learnMore">LEARN MORE</a>
+              <a href="#" class="anchor-Careers">CAREERS AT KONSTRUKTION</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  
-  
+    </section>
 
+    <section class="possible">
+      <div class="cropped">
+        <img
+          src="assets/imges/Muhannad/GettyImages-1266939032.webp"
+          alt=""
+          class="w-100"
+        />
+        <p>We redefine what’s possible</p>
+      </div>
+    </section>
 
-  <!--end footer-->
-  <!-- bootstap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
-  <script src="media.js"></script>
-</body>
+    <!--  leadership section -->
 
+    <section class="leadership">
+      <div class="container">
+        <div class="row gap-0 leadership-components">
+          <div class="col-md-4 col-sm-12">
+            <h2>Meet our leadership</h2>
+            <br />
+            <a href="#" class="elementor-btn">
+              <p>LEARN MORE</p>
+            </a>
+          </div>
+
+          <div
+            id="carouselExampleControls"
+            class="carousel slide col-md-8 py-3"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active leadership-image">
+                <div class="row gap-0">
+                  <div class="col-md-6">
+                    <div class="img-over">
+                      <img
+                        src="assets/imges/team/mahmod-headteam.jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div>
+                      <div class="post-text">
+                        <h3><a href="#">Mahmoud zakarneh</a></h3>
+                        <br />
+                        <p>
+                          <b
+                            >architect and previous president of the engineers
+                            syndicate of jenin</b
+                          >
+                          <br />
+                          <br />
+                          “We favorably impact people, families and communities
+                          with our work, our projects and our charitable
+                          efforts. It’s an exciting place to be every day and
+                          our opportunities to contribute will grow as we
+                          continue to grow in Palestine.”
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item leadership-image">
+                <div class="row gap-0">
+                  <div class="col-md-6">
+                    <div class="img-over">
+                      <img
+                        src="assets/imges/team/ibrahim.jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div>
+                      <div class="post-text">
+                        <h3><a href="#">ibrahim zakarneh</a></h3>
+                        <br />
+                        <p>
+                          <b>Sub specialist civil engineer</b>
+                          <br />
+                          <br />
+                          “Strive for perfection in everything you do. Take the
+                          best that exists and make it better. When it does not
+                          exist, design it”
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item leadership-image">
+                <div class="row gap-0">
+                  <div class="col-md-6">
+                    <div class="img-over h-100">
+                      <img
+                        src="assets/imges/team/omar-daher.jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div>
+                      <div class="post-text">
+                        <h3><a href="#">Omar althaher</a></h3>
+                        <br />
+                        <p>
+                          <b>civil engineer specialist</b>
+                          <br />
+                          <br />
+                          “Wade believes the company’s shareholder program is a
+                          “gamechanger” in the construction industry.
+                          Konstruktion is 100% employee-owned, which means
+                          employees have the opportunity to invest in their own
+                          hard work.”
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="test carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="fa-solid fa-arrow-left arrowLeft"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="fa-solid fa-arrow-right arrowRight"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--news section -->
+
+    <section class="News">
+      <div class="news-block">
+        <div class="container">
+          <div class="row gap-0">
+            <div class="col-md-4">
+              <div class="w-md-50">
+                <h5>News</h5>
+                <h2>Insights</h2>
+                <p>
+                  Our people are dedicated to finding solutions to every
+                  challenge. That spirit makes for some great stories.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-8 insights">
+              <div class="row gap-0">
+                <div class="col-md-6">
+                  <div class="new-image">
+                    <div class="img-over">
+                      <img
+                        src="assets/imges/Muhannad/pexels-pixabay-290275.webp"
+                        class="w-100"
+                        alt=""
+                      />
+                    </div>
+
+                    <br />
+                    <a href="#">Innovation</a>
+                    <h4>
+                      <a href="#">
+                        Winthrop Center Will Be One of <br />
+                        the World’s Largest Passive House Buildings
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="new-image ms-md-4 pb-4">
+                    <div class="img-over">
+                      <img
+                        src="assets/imges/Muhannad/GettyImages-1198057584.webp"
+                        class="w-100"
+                        alt=""
+                      />
+                    </div>
+                    <br />
+                    <a href="#">Report</a>
+
+                    <h4>
+                      <a href="#">Our aproach to to Sustainability </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client sec -->
+
+    <section class="clients">
+      <div class="container">
+        <div class="client-image">
+          <h3>Our clients</h3>
+          <img src="assets/imges/Muhannad/lafeminite.svg" class="item" alt="" />
+          <img src="assets/imges/Muhannad/salute.svg" class="item" alt="" />
+          <img src="assets/imges/Muhannad/debebe.svg" class="item" alt="" />
+          <img src="assets/imges/Muhannad/skole.svg" class="item" alt="" />
+          <img src="assets/imges/Muhannad/jolie.svg" class="item" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ready sec -->
+
+    <section class="ready py-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="img-over">
+            <div class="ready-components">
+              <img
+                class="w-100"
+                src="assets/imges/Muhannad/GettyImages-1313854425.webp"
+                alt=""
+              />
+              <p>
+                Ready to <br />
+                <span class="work"></span> together?
+              </p>
+              <div class="twoAnchor">
+                <a href="contactus.html">BUILD A PROJECT WITH US</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end-mohannad-section-->
+    <!--start footer-->
+
+    <section class="footer mt-5">
+      <div class="container">
+        <div class="row1 row gap-0 d-flex justify-content-between">
+          <div class="info col-lg-3">
+            <a class="navbar-brand" href="#">
+              <img src="assets/imges/LOGOFINAL-trans.png" alt="logo" />
+            </a>
+            <span class="logo-name">MAKTAB HASAD</span>
+          </div>
+
+          <div class="info col-lg-3">
+            <span> Palestine/jenin </span>
+            <p>al-barkeh mall-3rd floor -palestine str- jenin</p>
+            <a href="#">+970-599358656</a>
+            <a href="#"><br />office@Hasad.com</a>
+          </div>
+        </div>
+        <div class="row2 row gap-0 mt-5 d-flex justify-content-between">
+          <div class="projects position-relative col-lg-4">
+            <a class="position-relative" href="#">Projects</a>
+          </div>
+          <div class="projects position-relative col-lg-4">
+            <a class="position-relative" href="#">Leadership</a>
+          </div>
+        </div>
+        <div class="row3 row gap-0 my-5 d-flex">
+          <div class="col-lg-3">
+            <div class="socials d-flex">
+              <a class="position-relative" href="#">&copy;2023</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="socials d-flex gap-4 justify-content-between">
+              <a class="position-relative" href="#">Facebook</a>
+              <a class="position-relative" href="#">Linkedink</a>
+              <a class="position-relative" href="#">Instagram</a>
+            </div>
+          </div>
+          <div class="col-lg-3 position-relative">
+            <div class="socials d-flex justify-content-between">
+              <a class="position-relative" href="#">Terms and Conditions</a>
+              <a class="position-relative" href="#">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end footer-->
+    <!-- bootstap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+    <script src="media.js"></script>
+  </body>
 </html>
