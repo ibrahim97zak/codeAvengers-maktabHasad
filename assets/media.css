@@ -421,6 +421,21 @@ display: none;
 }
 
 /*ahmad-sec*/
+    @media(max-width:990px){
+        .winthropContent {
+            padding: 80px 30px;
+                
+        }
+        .winthropContent h3{
+            font-size: 22px;
+        }
+        .newsTitle{
+            padding:90px 0 10px 0!important;
+        }
+        .winthropImage{
+            padding:10px!important;
+        }
+    }
     @media(max-width:500px){
         html,body
         {
@@ -457,7 +472,18 @@ display: none;
     }
     .footer .container .row3 .socials a{
         padding: 10px;
+        
     }
+    .winthropContent h3{
+        font-size: 28px;
     }
+    .winthropContent {
+        padding: 80px 30px;
+        
+    }
+
+
+    }
+
 
 
