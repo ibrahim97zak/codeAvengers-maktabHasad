@@ -7,6 +7,15 @@
         font-size: 60px;
         font-family: "Titillium Web";
       }
+      .search-bar{
+        display: none !important;
+      }
+      .canv-btn{
+        display: block !important;
+      }
+      .drop{
+        display: none !important;
+      }
 }
 @media screen and (max-width:576px) {
     .LeadershipTop .items .item {
@@ -22,6 +31,37 @@
       .LeadershipTop .items .p-twenty,.LeadershipTop .items .p-thirty{
         padding-top:50px
       }
+      h2{
+        font-size: 40px !important;
+       }
+       .search-bar{
+        display: none !important;
+      }
+      .canv-btn{
+        display: block !important;
+      }
+      .drop{
+        display: none !important;
+      }
 
-      
+      .after-tit::after{
+        left: 290px !important;
+      }
+      h2{
+        font-size: 40px !important;
+      }
+      h4{
+        font-size: 20px !important;
+      }
+}
+
+.about-tit::before {
+  position: absolute !important;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.5px;
+  background-color: rgb(255, 127, 36);
+  top: 50%;
+  left: 105px;
 }

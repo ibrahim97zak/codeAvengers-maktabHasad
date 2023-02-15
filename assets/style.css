@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;1,600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,400;0,500;0,600;1,200;1,300&display=swap");
 body {
-  width: 100%;
+  width: 100% ;
   height: 100%;
   margin: 0px;
   padding: 0px;
@@ -1293,8 +1293,7 @@ i {
 /* about page */
 
 .about .cropped {
-  width: 100%; 
-  height: 370px; 
+  width: 100%;  
   overflow: hidden;
  
   }
@@ -1367,17 +1366,23 @@ i {
 /* OurCommitment */
 
 .OurCommitment .cropped {
-  width: 100%; 
-  height: 400px; 
-  overflow: hidden;
+  width: 100%;  
   }
 
+.after-tit{
+  position: relative;
+}
+.after-tit::after{
+  position: absolute !important;
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.5px;
+  background-color: rgb(255, 127, 36);
+  top:15px ;
+  left: 350px;
+}
 
-
-
-  .OurCommitment .cropped img{
-    margin-top: -140px;
-  }
 
 
   /* out Mission */
@@ -1390,6 +1395,9 @@ i {
     font-size: 24px; 
     font-family: 'Titillium Web';
     color:#000;
+  }
+  .future-icon{
+    font-size: 35px;
   }
 
 
@@ -1493,3 +1501,69 @@ i {
     color: black;
     padding: 15px 10px;
   }
+  .img-leader{
+    width: 100% !important;
+    object-fit: cover !important;
+    height: 370px !important ;
+  }
+  /**/
+  .elementor-btn{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 25px ;
+    font-family: "Archivo";
+    font-size: 14px;
+    position: relative;
+    transition: .5s;
+
+}
+ .elementor-btn:hover{
+    border:solid 2px #000;
+    background-color: #fff;
+    color:#000;
+}
+
+ .elementor-btn p{
+    display: inline-block;
+    width:fit-content;
+}
+
+ .elementor-btn p:after{
+    content: '';
+    width:0;
+    height: .5px;
+    position: absolute;
+    background-color:#000;
+    bottom: 12px;
+    left: 15%;
+    transition: .7s;
+}
+
+ .elementor-btn:hover p:after{
+    width:70%;
+}
+/*projects-mahmoud*/
+.project-details {
+  width: 100%;
+  height: 250px;
+}
+.project-details .imgParent {
+  width: 355px;
+  height: 200px;
+  overflow: hidden;
+}
+.project-details .imgParent img {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.project-details .imgParent img:hover {
+  transform: scale(1.2);
+}
+/*news*/
+.newsitems{
+  max-width: 25rem;
+  display: block;
+}
